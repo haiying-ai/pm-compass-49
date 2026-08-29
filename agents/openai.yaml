@@ -1,0 +1,7 @@
+interface:
+  display_name: "项目经理49过程管理"
+  short_description: "按软考49过程管理项目、台账、基线、门禁和状态报告"
+  brand_color: "#2563EB"
+  default_prompt: "Use $project-manager-49 to manage a predictive project process, artifacts, gates, and status."
+policy:
+  allow_implicit_invocation: true

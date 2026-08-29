@@ -1,0 +1,3392 @@
+[
+  {
+    "id": "TC-4.1",
+    "processCode": "4.1",
+    "nameZh": "制定项目章程",
+    "nameEn": "Develop Project Charter",
+    "processGroup": "启动过程组",
+    "knowledgeArea": "项目整合管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“制定项目章程”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Develop Project Charter for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "把菜单、预算、时间和家庭成员安排整合为一份可执行决定",
+    "focusEn": "integrate menu, budget, timing, and family responsibilities into one executable decision",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "商业机会和发起人可识别",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 启动过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "商业文件",
+      "协议",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Business documents",
+      "Agreements",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘制定项目章程’相关的项目文件和输入。",
+      "围绕‘制定项目章程’完成年夜饭专属活动：确认12人、预算1200元、除夕19:00开饭和成功标准，并记录假设。",
+      "保存过程输出到 `00-governance/4-1-制定项目章程.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Develop Project Charter.",
+      "Perform the dinner-specific activity for Develop Project Charter: integrate menu, budget, timing, and family responsibilities into one executable decision.",
+      "Save outputs to `00-governance/4-1-制定项目章程.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "项目章程",
+      "假设日志"
+    ],
+    "outputsEn": [
+      "Project charter",
+      "Assumption log"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `00-governance/4-1-制定项目章程.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `00-governance/4-1-制定项目章程.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘商业文件’，验证制定项目章程状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Business documents' and verify that Develop Project Charter becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-4.2",
+    "processCode": "4.2",
+    "nameZh": "制定项目管理计划",
+    "nameEn": "Develop Project Management Plan",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目整合管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“制定项目管理计划”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Develop Project Management Plan for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "把菜单、预算、时间和家庭成员安排整合为一份可执行决定",
+    "focusEn": "integrate menu, budget, timing, and family responsibilities into one executable decision",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目章程",
+      "其他过程的输出",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project charter",
+      "Outputs from other processes",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘制定项目管理计划’相关的项目文件和输入。",
+      "围绕‘制定项目管理计划’完成年夜饭专属活动：把范围、进度、成本、质量、资源、沟通、风险和采购安排合并为可执行计划。",
+      "保存过程输出到 `00-governance/4-2-制定项目管理计划.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Develop Project Management Plan.",
+      "Perform the dinner-specific activity for Develop Project Management Plan: integrate menu, budget, timing, and family responsibilities into one executable decision.",
+      "Save outputs to `00-governance/4-2-制定项目管理计划.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "项目管理计划"
+    ],
+    "outputsEn": [
+      "Project management plan"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `00-governance/4-2-制定项目管理计划.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `00-governance/4-2-制定项目管理计划.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目章程’，验证制定项目管理计划状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project charter' and verify that Develop Project Management Plan becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-4.3",
+    "processCode": "4.3",
+    "nameZh": "指导与管理项目工作",
+    "nameEn": "Direct and Manage Project Work",
+    "processGroup": "执行过程组",
+    "knowledgeArea": "项目整合管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“指导与管理项目工作”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Direct and Manage Project Work for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "把菜单、预算、时间和家庭成员安排整合为一份可执行决定",
+    "focusEn": "integrate menu, budget, timing, and family responsibilities into one executable decision",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G1计划和基线已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 执行过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "批准的变更请求",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Approved change requests",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘指导与管理项目工作’相关的项目文件和输入。",
+      "围绕‘指导与管理项目工作’完成年夜饭专属活动：围绕项目整合管理的‘指导与管理项目工作’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `00-governance/4-3-指导与管理项目工作.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Direct and Manage Project Work.",
+      "Perform the dinner-specific activity for Direct and Manage Project Work: integrate menu, budget, timing, and family responsibilities into one executable decision.",
+      "Save outputs to `00-governance/4-3-指导与管理项目工作.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "可交付成果",
+      "工作绩效数据",
+      "问题日志",
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新",
+      "组织过程资产更新"
+    ],
+    "outputsEn": [
+      "Deliverables",
+      "Work performance data",
+      "Issue log",
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates",
+      "Organizational process assets updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `00-governance/4-3-指导与管理项目工作.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `00-governance/4-3-指导与管理项目工作.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证指导与管理项目工作状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Direct and Manage Project Work becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-4.4",
+    "processCode": "4.4",
+    "nameZh": "管理项目知识",
+    "nameEn": "Manage Project Knowledge",
+    "processGroup": "执行过程组",
+    "knowledgeArea": "项目整合管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“管理项目知识”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Manage Project Knowledge for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "把菜单、预算、时间和家庭成员安排整合为一份可执行决定",
+    "focusEn": "integrate menu, budget, timing, and family responsibilities into one executable decision",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G1计划和基线已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 执行过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "可交付成果",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Deliverables",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘管理项目知识’相关的项目文件和输入。",
+      "围绕‘管理项目知识’完成年夜饭专属活动：围绕项目整合管理的‘管理项目知识’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `00-governance/4-4-管理项目知识.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Manage Project Knowledge.",
+      "Perform the dinner-specific activity for Manage Project Knowledge: integrate menu, budget, timing, and family responsibilities into one executable decision.",
+      "Save outputs to `00-governance/4-4-管理项目知识.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "经验教训登记册",
+      "项目管理计划更新",
+      "组织过程资产更新"
+    ],
+    "outputsEn": [
+      "Lessons learned register",
+      "Project management plan updates",
+      "Organizational process assets updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `00-governance/4-4-管理项目知识.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `00-governance/4-4-管理项目知识.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证管理项目知识状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Manage Project Knowledge becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-4.5",
+    "processCode": "4.5",
+    "nameZh": "监控项目工作",
+    "nameEn": "Monitor and Control Project Work",
+    "processGroup": "监控过程组",
+    "knowledgeArea": "项目整合管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“监控项目工作”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Monitor and Control Project Work for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "把菜单、预算、时间和家庭成员安排整合为一份可执行决定",
+    "focusEn": "integrate menu, budget, timing, and family responsibilities into one executable decision",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G2执行准备已完成",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 监控过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "工作绩效信息",
+      "协议",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Work performance information",
+      "Agreements",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘监控项目工作’相关的项目文件和输入。",
+      "围绕‘监控项目工作’完成年夜饭专属活动：围绕项目整合管理的‘监控项目工作’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `00-governance/4-5-监控项目工作.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Monitor and Control Project Work.",
+      "Perform the dinner-specific activity for Monitor and Control Project Work: integrate menu, budget, timing, and family responsibilities into one executable decision.",
+      "Save outputs to `00-governance/4-5-监控项目工作.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "工作绩效报告",
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Work performance reports",
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `00-governance/4-5-监控项目工作.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `00-governance/4-5-监控项目工作.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证监控项目工作状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Monitor and Control Project Work becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-4.6",
+    "processCode": "4.6",
+    "nameZh": "实施整体变更控制",
+    "nameEn": "Perform Integrated Change Control",
+    "processGroup": "监控过程组",
+    "knowledgeArea": "项目整合管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“实施整体变更控制”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Perform Integrated Change Control for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "把菜单、预算、时间和家庭成员安排整合为一份可执行决定",
+    "focusEn": "integrate menu, budget, timing, and family responsibilities into one executable decision",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G2执行准备已完成",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 监控过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "工作绩效报告",
+      "变更请求",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Work performance reports",
+      "Change requests",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘实施整体变更控制’相关的项目文件和输入。",
+      "围绕‘实施整体变更控制’完成年夜饭专属活动：围绕项目整合管理的‘实施整体变更控制’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `00-governance/4-6-实施整体变更控制.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Perform Integrated Change Control.",
+      "Perform the dinner-specific activity for Perform Integrated Change Control: integrate menu, budget, timing, and family responsibilities into one executable decision.",
+      "Save outputs to `00-governance/4-6-实施整体变更控制.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "批准的变更请求",
+      "项目管理计划更新",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Approved change requests",
+      "Project management plan updates",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `00-governance/4-6-实施整体变更控制.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `00-governance/4-6-实施整体变更控制.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证实施整体变更控制状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Perform Integrated Change Control becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-4.7",
+    "processCode": "4.7",
+    "nameZh": "结束项目或阶段",
+    "nameEn": "Close Project or Phase",
+    "processGroup": "收尾过程组",
+    "knowledgeArea": "项目整合管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“结束项目或阶段”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Close Project or Phase for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "把菜单、预算、时间和家庭成员安排整合为一份可执行决定",
+    "focusEn": "integrate menu, budget, timing, and family responsibilities into one executable decision",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G3验收移交已完成",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 收尾过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目章程",
+      "项目管理计划",
+      "项目文件",
+      "验收的可交付成果",
+      "商业文件",
+      "协议",
+      "采购文档",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project charter",
+      "Project management plan",
+      "Project documents",
+      "Accepted deliverables",
+      "Business documents",
+      "Agreements",
+      "Procurement documentation",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘结束项目或阶段’相关的项目文件和输入。",
+      "围绕‘结束项目或阶段’完成年夜饭专属活动：确认开饭、费用结算、厨房归还和经验教训后关闭项目。",
+      "保存过程输出到 `00-governance/4-7-结束项目或阶段.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Close Project or Phase.",
+      "Perform the dinner-specific activity for Close Project or Phase: integrate menu, budget, timing, and family responsibilities into one executable decision.",
+      "Save outputs to `00-governance/4-7-结束项目或阶段.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "项目文件更新",
+      "最终产品、服务或成果移交",
+      "最终报告",
+      "组织过程资产更新"
+    ],
+    "outputsEn": [
+      "Project documents updates",
+      "Final product, service, or result transition",
+      "Final report",
+      "Organizational process assets updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `00-governance/4-7-结束项目或阶段.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `00-governance/4-7-结束项目或阶段.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目章程’，验证结束项目或阶段状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project charter' and verify that Close Project or Phase becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-5.1",
+    "processCode": "5.1",
+    "nameZh": "规划范围管理",
+    "nameEn": "Plan Scope Management",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目范围管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“规划范围管理”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Plan Scope Management for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "把‘丰盛但不铺张’转成明确菜品、份量和不在范围清单",
+    "focusEn": "turn a generous-but-not-wasteful dinner into explicit dishes, portions, and exclusions",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目章程",
+      "项目管理计划",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project charter",
+      "Project management plan",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘规划范围管理’相关的项目文件和输入。",
+      "围绕‘规划范围管理’完成年夜饭专属活动：围绕项目范围管理的‘规划范围管理’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `01-scope/5-1-规划范围管理.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Plan Scope Management.",
+      "Perform the dinner-specific activity for Plan Scope Management: turn a generous-but-not-wasteful dinner into explicit dishes, portions, and exclusions.",
+      "Save outputs to `01-scope/5-1-规划范围管理.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "范围管理计划",
+      "需求管理计划"
+    ],
+    "outputsEn": [
+      "Scope management plan",
+      "Requirements management plan"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `01-scope/5-1-规划范围管理.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `01-scope/5-1-规划范围管理.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目章程’，验证规划范围管理状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project charter' and verify that Plan Scope Management becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-5.2",
+    "processCode": "5.2",
+    "nameZh": "收集需求",
+    "nameEn": "Collect Requirements",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目范围管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“收集需求”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Collect Requirements for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "把‘丰盛但不铺张’转成明确菜品、份量和不在范围清单",
+    "focusEn": "turn a generous-but-not-wasteful dinner into explicit dishes, portions, and exclusions",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目章程",
+      "项目管理计划",
+      "项目文件",
+      "商业文件",
+      "协议",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project charter",
+      "Project management plan",
+      "Project documents",
+      "Business documents",
+      "Agreements",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘收集需求’相关的项目文件和输入。",
+      "围绕‘收集需求’完成年夜饭专属活动：分别访谈老人、小朋友、厨师和其他家人，记录低盐、不辣、必备菜和份量需求。",
+      "保存过程输出到 `01-scope/5-2-收集需求.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Collect Requirements.",
+      "Perform the dinner-specific activity for Collect Requirements: turn a generous-but-not-wasteful dinner into explicit dishes, portions, and exclusions.",
+      "Save outputs to `01-scope/5-2-收集需求.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "需求文件",
+      "需求跟踪矩阵"
+    ],
+    "outputsEn": [
+      "Requirements documentation",
+      "Requirements traceability matrix"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `01-scope/5-2-收集需求.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `01-scope/5-2-收集需求.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目章程’，验证收集需求状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project charter' and verify that Collect Requirements becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-5.3",
+    "processCode": "5.3",
+    "nameZh": "定义范围",
+    "nameEn": "Define Scope",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目范围管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“定义范围”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Define Scope for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "把‘丰盛但不铺张’转成明确菜品、份量和不在范围清单",
+    "focusEn": "turn a generous-but-not-wasteful dinner into explicit dishes, portions, and exclusions",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目章程",
+      "项目管理计划",
+      "项目文件",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project charter",
+      "Project management plan",
+      "Project documents",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘定义范围’相关的项目文件和输入。",
+      "围绕‘定义范围’完成年夜饭专属活动：围绕项目范围管理的‘定义范围’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `01-scope/5-3-定义范围.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Define Scope.",
+      "Perform the dinner-specific activity for Define Scope: turn a generous-but-not-wasteful dinner into explicit dishes, portions, and exclusions.",
+      "Save outputs to `01-scope/5-3-定义范围.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "项目范围说明书",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Project scope statement",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `01-scope/5-3-定义范围.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `01-scope/5-3-定义范围.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目章程’，验证定义范围状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project charter' and verify that Define Scope becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-5.4",
+    "processCode": "5.4",
+    "nameZh": "创建 WBS",
+    "nameEn": "Create WBS",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目范围管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“创建 WBS”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Create WBS for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "把‘丰盛但不铺张’转成明确菜品、份量和不在范围清单",
+    "focusEn": "turn a generous-but-not-wasteful dinner into explicit dishes, portions, and exclusions",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘创建 WBS’相关的项目文件和输入。",
+      "围绕‘创建 WBS’完成年夜饭专属活动：将菜单交付物拆到采购、洗切、腌制、烹饪、摆盘和验收工作包。",
+      "保存过程输出到 `01-scope/5-4-创建 WBS.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Create WBS.",
+      "Perform the dinner-specific activity for Create WBS: turn a generous-but-not-wasteful dinner into explicit dishes, portions, and exclusions.",
+      "Save outputs to `01-scope/5-4-创建 WBS.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "范围基准",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Scope baseline",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `01-scope/5-4-创建 WBS.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `01-scope/5-4-创建 WBS.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证创建 WBS状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Create WBS becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-5.5",
+    "processCode": "5.5",
+    "nameZh": "确认范围",
+    "nameEn": "Validate Scope",
+    "processGroup": "监控过程组",
+    "knowledgeArea": "项目范围管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“确认范围”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Validate Scope for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "把‘丰盛但不铺张’转成明确菜品、份量和不在范围清单",
+    "focusEn": "turn a generous-but-not-wasteful dinner into explicit dishes, portions, and exclusions",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G2执行准备已完成",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 监控过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "核实的可交付成果",
+      "工作绩效数据"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Verified deliverables",
+      "Work performance data"
+    ],
+    "actionsZh": [
+      "读取与‘确认范围’相关的项目文件和输入。",
+      "围绕‘确认范围’完成年夜饭专属活动：让全家逐项确认8道菜、饮品水果和不在范围清单。",
+      "保存过程输出到 `01-scope/5-5-确认范围.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Validate Scope.",
+      "Perform the dinner-specific activity for Validate Scope: turn a generous-but-not-wasteful dinner into explicit dishes, portions, and exclusions.",
+      "Save outputs to `01-scope/5-5-确认范围.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "验收的可交付成果",
+      "工作绩效信息",
+      "变更请求",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Accepted deliverables",
+      "Work performance information",
+      "Change requests",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `01-scope/5-5-确认范围.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `01-scope/5-5-确认范围.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证确认范围状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Validate Scope becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-5.6",
+    "processCode": "5.6",
+    "nameZh": "控制范围",
+    "nameEn": "Control Scope",
+    "processGroup": "监控过程组",
+    "knowledgeArea": "项目范围管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“控制范围”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Control Scope for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "把‘丰盛但不铺张’转成明确菜品、份量和不在范围清单",
+    "focusEn": "turn a generous-but-not-wasteful dinner into explicit dishes, portions, and exclusions",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G2执行准备已完成",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 监控过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "工作绩效数据",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Work performance data",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘控制范围’相关的项目文件和输入。",
+      "围绕‘控制范围’完成年夜饭专属活动：核对临时增加蛋糕的请求是否超出8道菜范围并记录变更建议。",
+      "保存过程输出到 `01-scope/5-6-控制范围.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Control Scope.",
+      "Perform the dinner-specific activity for Control Scope: turn a generous-but-not-wasteful dinner into explicit dishes, portions, and exclusions.",
+      "Save outputs to `01-scope/5-6-控制范围.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "工作绩效信息",
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Work performance information",
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `01-scope/5-6-控制范围.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `01-scope/5-6-控制范围.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证控制范围状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Control Scope becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-6.1",
+    "processCode": "6.1",
+    "nameZh": "规划进度管理",
+    "nameEn": "Plan Schedule Management",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目进度管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“规划进度管理”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Plan Schedule Management for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "在两口灶和19:00开饭约束下安排采购、备菜和烹饪顺序",
+    "focusEn": "sequence shopping, prep, and cooking around two burners and a 19:00 dinner",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目章程",
+      "项目管理计划",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project charter",
+      "Project management plan",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘规划进度管理’相关的项目文件和输入。",
+      "围绕‘规划进度管理’完成年夜饭专属活动：围绕项目进度管理的‘规划进度管理’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `02-schedule/6-1-规划进度管理.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Plan Schedule Management.",
+      "Perform the dinner-specific activity for Plan Schedule Management: sequence shopping, prep, and cooking around two burners and a 19:00 dinner.",
+      "Save outputs to `02-schedule/6-1-规划进度管理.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "进度管理计划"
+    ],
+    "outputsEn": [
+      "Schedule management plan"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `02-schedule/6-1-规划进度管理.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `02-schedule/6-1-规划进度管理.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目章程’，验证规划进度管理状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project charter' and verify that Plan Schedule Management becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-6.2",
+    "processCode": "6.2",
+    "nameZh": "定义活动",
+    "nameEn": "Define Activities",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目进度管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“定义活动”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Define Activities for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "在两口灶和19:00开饭约束下安排采购、备菜和烹饪顺序",
+    "focusEn": "sequence shopping, prep, and cooking around two burners and a 19:00 dinner",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘定义活动’相关的项目文件和输入。",
+      "围绕‘定义活动’完成年夜饭专属活动：围绕项目进度管理的‘定义活动’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `02-schedule/6-2-定义活动.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Define Activities.",
+      "Perform the dinner-specific activity for Define Activities: sequence shopping, prep, and cooking around two burners and a 19:00 dinner.",
+      "Save outputs to `02-schedule/6-2-定义活动.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "活动清单",
+      "活动属性",
+      "里程碑清单",
+      "变更请求",
+      "项目管理计划更新"
+    ],
+    "outputsEn": [
+      "Activity list",
+      "Activity attributes",
+      "Milestone list",
+      "Change requests",
+      "Project management plan updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `02-schedule/6-2-定义活动.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `02-schedule/6-2-定义活动.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证定义活动状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Define Activities becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-6.3",
+    "processCode": "6.3",
+    "nameZh": "排列活动顺序",
+    "nameEn": "Sequence Activities",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目进度管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“排列活动顺序”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Sequence Activities for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "在两口灶和19:00开饭约束下安排采购、备菜和烹饪顺序",
+    "focusEn": "sequence shopping, prep, and cooking around two burners and a 19:00 dinner",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘排列活动顺序’相关的项目文件和输入。",
+      "围绕‘排列活动顺序’完成年夜饭专属活动：围绕项目进度管理的‘排列活动顺序’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `02-schedule/6-3-排列活动顺序.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Sequence Activities.",
+      "Perform the dinner-specific activity for Sequence Activities: sequence shopping, prep, and cooking around two burners and a 19:00 dinner.",
+      "Save outputs to `02-schedule/6-3-排列活动顺序.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "项目进度网络图",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Project schedule network diagrams",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `02-schedule/6-3-排列活动顺序.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `02-schedule/6-3-排列活动顺序.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证排列活动顺序状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Sequence Activities becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-6.4",
+    "processCode": "6.4",
+    "nameZh": "估算活动持续时间",
+    "nameEn": "Estimate Activity Durations",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目进度管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“估算活动持续时间”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Estimate Activity Durations for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "在两口灶和19:00开饭约束下安排采购、备菜和烹饪顺序",
+    "focusEn": "sequence shopping, prep, and cooking around two burners and a 19:00 dinner",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘估算活动持续时间’相关的项目文件和输入。",
+      "围绕‘估算活动持续时间’完成年夜饭专属活动：围绕项目进度管理的‘估算活动持续时间’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `02-schedule/6-4-估算活动持续时间.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Estimate Activity Durations.",
+      "Perform the dinner-specific activity for Estimate Activity Durations: sequence shopping, prep, and cooking around two burners and a 19:00 dinner.",
+      "Save outputs to `02-schedule/6-4-估算活动持续时间.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "持续时间估算",
+      "估算依据",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Duration estimates",
+      "Basis of estimates",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `02-schedule/6-4-估算活动持续时间.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `02-schedule/6-4-估算活动持续时间.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证估算活动持续时间状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Estimate Activity Durations becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-6.5",
+    "processCode": "6.5",
+    "nameZh": "制定进度计划",
+    "nameEn": "Develop Schedule",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目进度管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“制定进度计划”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Develop Schedule for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "在两口灶和19:00开饭约束下安排采购、备菜和烹饪顺序",
+    "focusEn": "sequence shopping, prep, and cooking around two burners and a 19:00 dinner",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "协议",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Agreements",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘制定进度计划’相关的项目文件和输入。",
+      "围绕‘制定进度计划’完成年夜饭专属活动：用两口灶约束倒排采购、备菜、凉菜、热菜和19:00上桌里程碑。",
+      "保存过程输出到 `02-schedule/6-5-制定进度计划.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Develop Schedule.",
+      "Perform the dinner-specific activity for Develop Schedule: sequence shopping, prep, and cooking around two burners and a 19:00 dinner.",
+      "Save outputs to `02-schedule/6-5-制定进度计划.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "进度基准",
+      "项目进度计划",
+      "进度数据",
+      "项目日历",
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Schedule baseline",
+      "Project schedule",
+      "Schedule data",
+      "Project calendars",
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `02-schedule/6-5-制定进度计划.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `02-schedule/6-5-制定进度计划.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证制定进度计划状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Develop Schedule becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-6.6",
+    "processCode": "6.6",
+    "nameZh": "控制进度",
+    "nameEn": "Control Schedule",
+    "processGroup": "监控过程组",
+    "knowledgeArea": "项目进度管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“控制进度”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Control Schedule for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "在两口灶和19:00开饭约束下安排采购、备菜和烹饪顺序",
+    "focusEn": "sequence shopping, prep, and cooking around two burners and a 19:00 dinner",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G2执行准备已完成",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 监控过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "工作绩效数据",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Work performance data",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘控制进度’相关的项目文件和输入。",
+      "围绕‘控制进度’完成年夜饭专属活动：将实际采购和备菜时间与19:00开饭基线比较并记录偏差。",
+      "保存过程输出到 `02-schedule/6-6-控制进度.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Control Schedule.",
+      "Perform the dinner-specific activity for Control Schedule: sequence shopping, prep, and cooking around two burners and a 19:00 dinner.",
+      "Save outputs to `02-schedule/6-6-控制进度.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "工作绩效信息",
+      "进度预测",
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Work performance information",
+      "Schedule forecasts",
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `02-schedule/6-6-控制进度.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `02-schedule/6-6-控制进度.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证控制进度状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Control Schedule becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-7.1",
+    "processCode": "7.1",
+    "nameZh": "规划成本管理",
+    "nameEn": "Plan Cost Management",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目成本管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“规划成本管理”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Plan Cost Management for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "在1200元成本基线内完成采购并保留预备金",
+    "focusEn": "stay within the RMB 1,200 cost baseline while retaining contingency",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目章程",
+      "项目管理计划",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project charter",
+      "Project management plan",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘规划成本管理’相关的项目文件和输入。",
+      "围绕‘规划成本管理’完成年夜饭专属活动：围绕项目成本管理的‘规划成本管理’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `03-cost/7-1-规划成本管理.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Plan Cost Management.",
+      "Perform the dinner-specific activity for Plan Cost Management: stay within the RMB 1,200 cost baseline while retaining contingency.",
+      "Save outputs to `03-cost/7-1-规划成本管理.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "成本管理计划"
+    ],
+    "outputsEn": [
+      "Cost management plan"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `03-cost/7-1-规划成本管理.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `03-cost/7-1-规划成本管理.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目章程’，验证规划成本管理状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project charter' and verify that Plan Cost Management becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-7.2",
+    "processCode": "7.2",
+    "nameZh": "估算成本",
+    "nameEn": "Estimate Costs",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目成本管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“估算成本”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Estimate Costs for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "在1200元成本基线内完成采购并保留预备金",
+    "focusEn": "stay within the RMB 1,200 cost baseline while retaining contingency",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘估算成本’相关的项目文件和输入。",
+      "围绕‘估算成本’完成年夜饭专属活动：围绕项目成本管理的‘估算成本’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `03-cost/7-2-估算成本.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Estimate Costs.",
+      "Perform the dinner-specific activity for Estimate Costs: stay within the RMB 1,200 cost baseline while retaining contingency.",
+      "Save outputs to `03-cost/7-2-估算成本.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "成本估算",
+      "估算依据",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Cost estimates",
+      "Basis of estimates",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `03-cost/7-2-估算成本.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `03-cost/7-2-估算成本.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证估算成本状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Estimate Costs becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-7.3",
+    "processCode": "7.3",
+    "nameZh": "制定预算",
+    "nameEn": "Determine Budget",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目成本管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“制定预算”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Determine Budget for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "在1200元成本基线内完成采购并保留预备金",
+    "focusEn": "stay within the RMB 1,200 cost baseline while retaining contingency",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "商业文件",
+      "协议",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Business documents",
+      "Agreements",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘制定预算’相关的项目文件和输入。",
+      "围绕‘制定预算’完成年夜饭专属活动：按肉类海鲜、蔬菜调料、饮品水果和预备金建立1200元成本基线。",
+      "保存过程输出到 `03-cost/7-3-制定预算.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Determine Budget.",
+      "Perform the dinner-specific activity for Determine Budget: stay within the RMB 1,200 cost baseline while retaining contingency.",
+      "Save outputs to `03-cost/7-3-制定预算.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "成本基准",
+      "项目资金需求",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Cost baseline",
+      "Project funding requirements",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `03-cost/7-3-制定预算.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `03-cost/7-3-制定预算.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证制定预算状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Determine Budget becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-7.4",
+    "processCode": "7.4",
+    "nameZh": "控制成本",
+    "nameEn": "Control Costs",
+    "processGroup": "监控过程组",
+    "knowledgeArea": "项目成本管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“控制成本”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Control Costs for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "在1200元成本基线内完成采购并保留预备金",
+    "focusEn": "stay within the RMB 1,200 cost baseline while retaining contingency",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G2执行准备已完成",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 监控过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "项目资金需求",
+      "工作绩效数据",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Project funding requirements",
+      "Work performance data",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘控制成本’相关的项目文件和输入。",
+      "围绕‘控制成本’完成年夜饭专属活动：将已发生采购额与1200元基线比较，计算剩余预备金。",
+      "保存过程输出到 `03-cost/7-4-控制成本.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Control Costs.",
+      "Perform the dinner-specific activity for Control Costs: stay within the RMB 1,200 cost baseline while retaining contingency.",
+      "Save outputs to `03-cost/7-4-控制成本.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "工作绩效信息",
+      "成本预测",
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Work performance information",
+      "Cost forecasts",
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `03-cost/7-4-控制成本.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `03-cost/7-4-控制成本.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证控制成本状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Control Costs becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-8.1",
+    "processCode": "8.1",
+    "nameZh": "规划质量管理",
+    "nameEn": "Plan Quality Management",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目质量管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“规划质量管理”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Plan Quality Management for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "用食品安全、口味、温度和摆盘标准验收菜品",
+    "focusEn": "accept dishes against food-safety, taste, temperature, and presentation criteria",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目章程",
+      "项目管理计划",
+      "项目文件",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project charter",
+      "Project management plan",
+      "Project documents",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘规划质量管理’相关的项目文件和输入。",
+      "围绕‘规划质量管理’完成年夜饭专属活动：围绕项目质量管理的‘规划质量管理’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `04-quality/8-1-规划质量管理.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Plan Quality Management.",
+      "Perform the dinner-specific activity for Plan Quality Management: accept dishes against food-safety, taste, temperature, and presentation criteria.",
+      "Save outputs to `04-quality/8-1-规划质量管理.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "质量管理计划",
+      "质量测量指标",
+      "项目管理计划更新",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Quality management plan",
+      "Quality metrics",
+      "Project management plan updates",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `04-quality/8-1-规划质量管理.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `04-quality/8-1-规划质量管理.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目章程’，验证规划质量管理状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project charter' and verify that Plan Quality Management becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-8.2",
+    "processCode": "8.2",
+    "nameZh": "管理质量",
+    "nameEn": "Manage Quality",
+    "processGroup": "执行过程组",
+    "knowledgeArea": "项目质量管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“管理质量”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Manage Quality for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "用食品安全、口味、温度和摆盘标准验收菜品",
+    "focusEn": "accept dishes against food-safety, taste, temperature, and presentation criteria",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G1计划和基线已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 执行过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘管理质量’相关的项目文件和输入。",
+      "围绕‘管理质量’完成年夜饭专属活动：围绕项目质量管理的‘管理质量’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `04-quality/8-2-管理质量.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Manage Quality.",
+      "Perform the dinner-specific activity for Manage Quality: accept dishes against food-safety, taste, temperature, and presentation criteria.",
+      "Save outputs to `04-quality/8-2-管理质量.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "质量报告",
+      "测试与评估文件",
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Quality reports",
+      "Test and evaluation documents",
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `04-quality/8-2-管理质量.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `04-quality/8-2-管理质量.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证管理质量状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Manage Quality becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-8.3",
+    "processCode": "8.3",
+    "nameZh": "控制质量",
+    "nameEn": "Control Quality",
+    "processGroup": "监控过程组",
+    "knowledgeArea": "项目质量管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“控制质量”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Control Quality for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "用食品安全、口味、温度和摆盘标准验收菜品",
+    "focusEn": "accept dishes against food-safety, taste, temperature, and presentation criteria",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G2执行准备已完成",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 监控过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "批准的变更请求",
+      "可交付成果",
+      "工作绩效数据",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Approved change requests",
+      "Deliverables",
+      "Work performance data",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘控制质量’相关的项目文件和输入。",
+      "围绕‘控制质量’完成年夜饭专属活动：检查鱼虾新鲜度、熟度、低盐和不辣标识，记录不合格项。",
+      "保存过程输出到 `04-quality/8-3-控制质量.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Control Quality.",
+      "Perform the dinner-specific activity for Control Quality: accept dishes against food-safety, taste, temperature, and presentation criteria.",
+      "Save outputs to `04-quality/8-3-控制质量.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "质量控制测量结果",
+      "核实的可交付成果",
+      "工作绩效信息",
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Quality control measurements",
+      "Verified deliverables",
+      "Work performance information",
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `04-quality/8-3-控制质量.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `04-quality/8-3-控制质量.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证控制质量状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Control Quality becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-9.1",
+    "processCode": "9.1",
+    "nameZh": "规划资源管理",
+    "nameEn": "Plan Resource Management",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目资源管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“规划资源管理”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Plan Resource Management for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "按家庭成员技能和可用灶台分配角色、工具和时间",
+    "focusEn": "assign family roles, tools, and stove time by skill and availability",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目章程",
+      "项目管理计划",
+      "项目文件",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project charter",
+      "Project management plan",
+      "Project documents",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘规划资源管理’相关的项目文件和输入。",
+      "围绕‘规划资源管理’完成年夜饭专属活动：围绕项目资源管理的‘规划资源管理’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `05-resource/9-1-规划资源管理.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Plan Resource Management.",
+      "Perform the dinner-specific activity for Plan Resource Management: assign family roles, tools, and stove time by skill and availability.",
+      "Save outputs to `05-resource/9-1-规划资源管理.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "资源管理计划",
+      "团队章程",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Resource management plan",
+      "Team charter",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `05-resource/9-1-规划资源管理.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `05-resource/9-1-规划资源管理.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目章程’，验证规划资源管理状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project charter' and verify that Plan Resource Management becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-9.2",
+    "processCode": "9.2",
+    "nameZh": "估算活动资源",
+    "nameEn": "Estimate Activity Resources",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目资源管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“估算活动资源”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Estimate Activity Resources for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "按家庭成员技能和可用灶台分配角色、工具和时间",
+    "focusEn": "assign family roles, tools, and stove time by skill and availability",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘估算活动资源’相关的项目文件和输入。",
+      "围绕‘估算活动资源’完成年夜饭专属活动：围绕项目资源管理的‘估算活动资源’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `05-resource/9-2-估算活动资源.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Estimate Activity Resources.",
+      "Perform the dinner-specific activity for Estimate Activity Resources: assign family roles, tools, and stove time by skill and availability.",
+      "Save outputs to `05-resource/9-2-估算活动资源.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "资源需求",
+      "估算依据",
+      "资源分解结构",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Resource requirements",
+      "Basis of estimates",
+      "Resource breakdown structure",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `05-resource/9-2-估算活动资源.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `05-resource/9-2-估算活动资源.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证估算活动资源状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Estimate Activity Resources becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-9.3",
+    "processCode": "9.3",
+    "nameZh": "获取资源",
+    "nameEn": "Acquire Resources",
+    "processGroup": "执行过程组",
+    "knowledgeArea": "项目资源管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“获取资源”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Acquire Resources for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "按家庭成员技能和可用灶台分配角色、工具和时间",
+    "focusEn": "assign family roles, tools, and stove time by skill and availability",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G1计划和基线已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 执行过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘获取资源’相关的项目文件和输入。",
+      "围绕‘获取资源’完成年夜饭专属活动：围绕项目资源管理的‘获取资源’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `05-resource/9-3-获取资源.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Acquire Resources.",
+      "Perform the dinner-specific activity for Acquire Resources: assign family roles, tools, and stove time by skill and availability.",
+      "Save outputs to `05-resource/9-3-获取资源.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "实物资源分配单",
+      "项目团队派工单",
+      "资源日历",
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新",
+      "事业环境因素更新",
+      "组织过程资产更新"
+    ],
+    "outputsEn": [
+      "Physical resource assignments",
+      "Project team assignments",
+      "Resource calendars",
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates",
+      "Enterprise environmental factors updates",
+      "Organizational process assets updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `05-resource/9-3-获取资源.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `05-resource/9-3-获取资源.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证获取资源状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Acquire Resources becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-9.4",
+    "processCode": "9.4",
+    "nameZh": "建设团队",
+    "nameEn": "Develop Team",
+    "processGroup": "执行过程组",
+    "knowledgeArea": "项目资源管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“建设团队”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Develop Team for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "按家庭成员技能和可用灶台分配角色、工具和时间",
+    "focusEn": "assign family roles, tools, and stove time by skill and availability",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G1计划和基线已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 执行过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘建设团队’相关的项目文件和输入。",
+      "围绕‘建设团队’完成年夜饭专属活动：围绕项目资源管理的‘建设团队’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `05-resource/9-4-建设团队.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Develop Team.",
+      "Perform the dinner-specific activity for Develop Team: assign family roles, tools, and stove time by skill and availability.",
+      "Save outputs to `05-resource/9-4-建设团队.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "团队绩效评价",
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新",
+      "事业环境因素更新",
+      "组织过程资产更新"
+    ],
+    "outputsEn": [
+      "Team performance assessments",
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates",
+      "Enterprise environmental factors updates",
+      "Organizational process assets updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `05-resource/9-4-建设团队.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `05-resource/9-4-建设团队.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证建设团队状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Develop Team becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-9.5",
+    "processCode": "9.5",
+    "nameZh": "管理团队",
+    "nameEn": "Manage Team",
+    "processGroup": "执行过程组",
+    "knowledgeArea": "项目资源管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“管理团队”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Manage Team for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "按家庭成员技能和可用灶台分配角色、工具和时间",
+    "focusEn": "assign family roles, tools, and stove time by skill and availability",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G1计划和基线已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 执行过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "工作绩效报告",
+      "团队绩效评价",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Work performance reports",
+      "Team performance assessments",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘管理团队’相关的项目文件和输入。",
+      "围绕‘管理团队’完成年夜饭专属活动：围绕项目资源管理的‘管理团队’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `05-resource/9-5-管理团队.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Manage Team.",
+      "Perform the dinner-specific activity for Manage Team: assign family roles, tools, and stove time by skill and availability.",
+      "Save outputs to `05-resource/9-5-管理团队.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新",
+      "事业环境因素更新"
+    ],
+    "outputsEn": [
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates",
+      "Enterprise environmental factors updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `05-resource/9-5-管理团队.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `05-resource/9-5-管理团队.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证管理团队状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Manage Team becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-9.6",
+    "processCode": "9.6",
+    "nameZh": "控制资源",
+    "nameEn": "Control Resources",
+    "processGroup": "监控过程组",
+    "knowledgeArea": "项目资源管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“控制资源”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Control Resources for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "按家庭成员技能和可用灶台分配角色、工具和时间",
+    "focusEn": "assign family roles, tools, and stove time by skill and availability",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G2执行准备已完成",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 监控过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "工作绩效数据",
+      "协议",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Work performance data",
+      "Agreements",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘控制资源’相关的项目文件和输入。",
+      "围绕‘控制资源’完成年夜饭专属活动：围绕项目资源管理的‘控制资源’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `05-resource/9-6-控制资源.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Control Resources.",
+      "Perform the dinner-specific activity for Control Resources: assign family roles, tools, and stove time by skill and availability.",
+      "Save outputs to `05-resource/9-6-控制资源.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "工作绩效信息",
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Work performance information",
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `05-resource/9-6-控制资源.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `05-resource/9-6-控制资源.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证控制资源状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Control Resources becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-10.1",
+    "processCode": "10.1",
+    "nameZh": "规划沟通管理",
+    "nameEn": "Plan Communications Management",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目沟通管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“规划沟通管理”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Plan Communications Management for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "让家人及时知道菜单、分工、变更和风险",
+    "focusEn": "keep the family informed about menu, ownership, changes, and risks",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目章程",
+      "项目管理计划",
+      "项目文件",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project charter",
+      "Project management plan",
+      "Project documents",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘规划沟通管理’相关的项目文件和输入。",
+      "围绕‘规划沟通管理’完成年夜饭专属活动：围绕项目沟通管理的‘规划沟通管理’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `06-communications/10-1-规划沟通管理.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Plan Communications Management.",
+      "Perform the dinner-specific activity for Plan Communications Management: keep the family informed about menu, ownership, changes, and risks.",
+      "Save outputs to `06-communications/10-1-规划沟通管理.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "沟通管理计划",
+      "项目管理计划更新",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Communications management plan",
+      "Project management plan updates",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `06-communications/10-1-规划沟通管理.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `06-communications/10-1-规划沟通管理.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目章程’，验证规划沟通管理状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project charter' and verify that Plan Communications Management becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-10.2",
+    "processCode": "10.2",
+    "nameZh": "管理沟通",
+    "nameEn": "Manage Communications",
+    "processGroup": "执行过程组",
+    "knowledgeArea": "项目沟通管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“管理沟通”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Manage Communications for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "让家人及时知道菜单、分工、变更和风险",
+    "focusEn": "keep the family informed about menu, ownership, changes, and risks",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G1计划和基线已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 执行过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "工作绩效报告",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Work performance reports",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘管理沟通’相关的项目文件和输入。",
+      "围绕‘管理沟通’完成年夜饭专属活动：围绕项目沟通管理的‘管理沟通’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `06-communications/10-2-管理沟通.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Manage Communications.",
+      "Perform the dinner-specific activity for Manage Communications: keep the family informed about menu, ownership, changes, and risks.",
+      "Save outputs to `06-communications/10-2-管理沟通.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "项目沟通记录",
+      "项目管理计划更新",
+      "项目文件更新",
+      "组织过程资产更新"
+    ],
+    "outputsEn": [
+      "Project communications",
+      "Project management plan updates",
+      "Project documents updates",
+      "Organizational process assets updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `06-communications/10-2-管理沟通.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `06-communications/10-2-管理沟通.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证管理沟通状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Manage Communications becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-10.3",
+    "processCode": "10.3",
+    "nameZh": "监督沟通",
+    "nameEn": "Monitor Communications",
+    "processGroup": "监控过程组",
+    "knowledgeArea": "项目沟通管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“监督沟通”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Monitor Communications for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "让家人及时知道菜单、分工、变更和风险",
+    "focusEn": "keep the family informed about menu, ownership, changes, and risks",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G2执行准备已完成",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 监控过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "工作绩效数据",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Work performance data",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘监督沟通’相关的项目文件和输入。",
+      "围绕‘监督沟通’完成年夜饭专属活动：围绕项目沟通管理的‘监督沟通’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `06-communications/10-3-监督沟通.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Monitor Communications.",
+      "Perform the dinner-specific activity for Monitor Communications: keep the family informed about menu, ownership, changes, and risks.",
+      "Save outputs to `06-communications/10-3-监督沟通.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "工作绩效信息",
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Work performance information",
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `06-communications/10-3-监督沟通.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `06-communications/10-3-监督沟通.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证监督沟通状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Monitor Communications becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-11.1",
+    "processCode": "11.1",
+    "nameZh": "规划风险管理",
+    "nameEn": "Plan Risk Management",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目风险管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“规划风险管理”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Plan Risk Management for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "提前处理缺鱼、堵灶、过敏和延误等不确定性",
+    "focusEn": "prepare responses for fish shortages, stove congestion, allergies, and delays",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目章程",
+      "项目管理计划",
+      "项目文件",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project charter",
+      "Project management plan",
+      "Project documents",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘规划风险管理’相关的项目文件和输入。",
+      "围绕‘规划风险管理’完成年夜饭专属活动：围绕项目风险管理的‘规划风险管理’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `07-risk/11-1-规划风险管理.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Plan Risk Management.",
+      "Perform the dinner-specific activity for Plan Risk Management: prepare responses for fish shortages, stove congestion, allergies, and delays.",
+      "Save outputs to `07-risk/11-1-规划风险管理.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "风险管理计划"
+    ],
+    "outputsEn": [
+      "Risk management plan"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `07-risk/11-1-规划风险管理.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `07-risk/11-1-规划风险管理.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目章程’，验证规划风险管理状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project charter' and verify that Plan Risk Management becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-11.2",
+    "processCode": "11.2",
+    "nameZh": "识别风险",
+    "nameEn": "Identify Risks",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目风险管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“识别风险”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Identify Risks for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "提前处理缺鱼、堵灶、过敏和延误等不确定性",
+    "focusEn": "prepare responses for fish shortages, stove congestion, allergies, and delays",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "协议",
+      "采购文档",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Agreements",
+      "Procurement documentation",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘识别风险’相关的项目文件和输入。",
+      "围绕‘识别风险’完成年夜饭专属活动：组织家庭成员头脑风暴并登记缺鱼、堵灶、过敏和延误风险。",
+      "保存过程输出到 `07-risk/11-2-识别风险.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Identify Risks.",
+      "Perform the dinner-specific activity for Identify Risks: prepare responses for fish shortages, stove congestion, allergies, and delays.",
+      "Save outputs to `07-risk/11-2-识别风险.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "风险登记册",
+      "风险报告",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Risk register",
+      "Risk report",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `07-risk/11-2-识别风险.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `07-risk/11-2-识别风险.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证识别风险状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Identify Risks becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-11.3",
+    "processCode": "11.3",
+    "nameZh": "实施定性风险分析",
+    "nameEn": "Perform Qualitative Risk Analysis",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目风险管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“实施定性风险分析”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Perform Qualitative Risk Analysis for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "提前处理缺鱼、堵灶、过敏和延误等不确定性",
+    "focusEn": "prepare responses for fish shortages, stove congestion, allergies, and delays",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘实施定性风险分析’相关的项目文件和输入。",
+      "围绕‘实施定性风险分析’完成年夜饭专属活动：围绕项目风险管理的‘实施定性风险分析’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `07-risk/11-3-实施定性风险分析.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Perform Qualitative Risk Analysis.",
+      "Perform the dinner-specific activity for Perform Qualitative Risk Analysis: prepare responses for fish shortages, stove congestion, allergies, and delays.",
+      "Save outputs to `07-risk/11-3-实施定性风险分析.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `07-risk/11-3-实施定性风险分析.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `07-risk/11-3-实施定性风险分析.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证实施定性风险分析状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Perform Qualitative Risk Analysis becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-11.4",
+    "processCode": "11.4",
+    "nameZh": "实施定量风险分析",
+    "nameEn": "Perform Quantitative Risk Analysis",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目风险管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“实施定量风险分析”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Perform Quantitative Risk Analysis for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "提前处理缺鱼、堵灶、过敏和延误等不确定性",
+    "focusEn": "prepare responses for fish shortages, stove congestion, allergies, and delays",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘实施定量风险分析’相关的项目文件和输入。",
+      "围绕‘实施定量风险分析’完成年夜饭专属活动：围绕项目风险管理的‘实施定量风险分析’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `07-risk/11-4-实施定量风险分析.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Perform Quantitative Risk Analysis.",
+      "Perform the dinner-specific activity for Perform Quantitative Risk Analysis: prepare responses for fish shortages, stove congestion, allergies, and delays.",
+      "Save outputs to `07-risk/11-4-实施定量风险分析.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `07-risk/11-4-实施定量风险分析.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `07-risk/11-4-实施定量风险分析.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证实施定量风险分析状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Perform Quantitative Risk Analysis becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-11.5",
+    "processCode": "11.5",
+    "nameZh": "规划风险应对",
+    "nameEn": "Plan Risk Responses",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目风险管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“规划风险应对”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Plan Risk Responses for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "提前处理缺鱼、堵灶、过敏和延误等不确定性",
+    "focusEn": "prepare responses for fish shortages, stove congestion, allergies, and delays",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘规划风险应对’相关的项目文件和输入。",
+      "围绕‘规划风险应对’完成年夜饭专属活动：围绕项目风险管理的‘规划风险应对’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `07-risk/11-5-规划风险应对.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Plan Risk Responses.",
+      "Perform the dinner-specific activity for Plan Risk Responses: prepare responses for fish shortages, stove congestion, allergies, and delays.",
+      "Save outputs to `07-risk/11-5-规划风险应对.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `07-risk/11-5-规划风险应对.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `07-risk/11-5-规划风险应对.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证规划风险应对状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Plan Risk Responses becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-11.6",
+    "processCode": "11.6",
+    "nameZh": "实施风险应对",
+    "nameEn": "Implement Risk Responses",
+    "processGroup": "执行过程组",
+    "knowledgeArea": "项目风险管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“实施风险应对”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Implement Risk Responses for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "提前处理缺鱼、堵灶、过敏和延误等不确定性",
+    "focusEn": "prepare responses for fish shortages, stove congestion, allergies, and delays",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G1计划和基线已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 执行过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘实施风险应对’相关的项目文件和输入。",
+      "围绕‘实施风险应对’完成年夜饭专属活动：为缺鱼和堵灶风险指定触发条件、应对负责人和备用方案。",
+      "保存过程输出到 `07-risk/11-6-实施风险应对.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Implement Risk Responses.",
+      "Perform the dinner-specific activity for Implement Risk Responses: prepare responses for fish shortages, stove congestion, allergies, and delays.",
+      "Save outputs to `07-risk/11-6-实施风险应对.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "变更请求",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Change requests",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `07-risk/11-6-实施风险应对.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `07-risk/11-6-实施风险应对.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证实施风险应对状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Implement Risk Responses becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-11.7",
+    "processCode": "11.7",
+    "nameZh": "监督风险",
+    "nameEn": "Monitor Risks",
+    "processGroup": "监控过程组",
+    "knowledgeArea": "项目风险管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“监督风险”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Monitor Risks for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "提前处理缺鱼、堵灶、过敏和延误等不确定性",
+    "focusEn": "prepare responses for fish shortages, stove congestion, allergies, and delays",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G2执行准备已完成",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 监控过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "工作绩效数据",
+      "工作绩效报告"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Work performance data",
+      "Work performance reports"
+    ],
+    "actionsZh": [
+      "读取与‘监督风险’相关的项目文件和输入。",
+      "围绕‘监督风险’完成年夜饭专属活动：检查鱼类采购、灶台排程和过敏标识的风险应对是否生效。",
+      "保存过程输出到 `07-risk/11-7-监督风险.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Monitor Risks.",
+      "Perform the dinner-specific activity for Monitor Risks: prepare responses for fish shortages, stove congestion, allergies, and delays.",
+      "Save outputs to `07-risk/11-7-监督风险.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "工作绩效信息",
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新",
+      "组织过程资产更新"
+    ],
+    "outputsEn": [
+      "Work performance information",
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates",
+      "Organizational process assets updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `07-risk/11-7-监督风险.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `07-risk/11-7-监督风险.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证监督风险状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Monitor Risks becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-12.1",
+    "processCode": "12.1",
+    "nameZh": "规划采购管理",
+    "nameEn": "Plan Procurement Management",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目采购管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“规划采购管理”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Plan Procurement Management for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "比较菜市场和线上供应，按质量、价格、交付时间采购",
+    "focusEn": "source ingredients by quality, price, and delivery time",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目章程",
+      "商业文件",
+      "项目管理计划",
+      "项目文件",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project charter",
+      "Business documents",
+      "Project management plan",
+      "Project documents",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘规划采购管理’相关的项目文件和输入。",
+      "围绕‘规划采购管理’完成年夜饭专属活动：围绕项目采购管理的‘规划采购管理’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `08-procurement/12-1-规划采购管理.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Plan Procurement Management.",
+      "Perform the dinner-specific activity for Plan Procurement Management: source ingredients by quality, price, and delivery time.",
+      "Save outputs to `08-procurement/12-1-规划采购管理.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "采购管理计划",
+      "采购策略",
+      "招标文件",
+      "采购工作说明书",
+      "供方选择标准",
+      "自制或外购决策",
+      "独立成本估算",
+      "变更请求",
+      "项目文件更新",
+      "组织过程资产更新"
+    ],
+    "outputsEn": [
+      "Procurement management plan",
+      "Procurement strategy",
+      "Bid documents",
+      "Procurement statement of work",
+      "Source selection criteria",
+      "Make-or-buy decisions",
+      "Independent cost estimates",
+      "Change requests",
+      "Project documents updates",
+      "Organizational process assets updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `08-procurement/12-1-规划采购管理.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `08-procurement/12-1-规划采购管理.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目章程’，验证规划采购管理状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project charter' and verify that Plan Procurement Management becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-12.2",
+    "processCode": "12.2",
+    "nameZh": "实施采购",
+    "nameEn": "Conduct Procurements",
+    "processGroup": "执行过程组",
+    "knowledgeArea": "项目采购管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“实施采购”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Conduct Procurements for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "比较菜市场和线上供应，按质量、价格、交付时间采购",
+    "focusEn": "source ingredients by quality, price, and delivery time",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G1计划和基线已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 执行过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "采购文档",
+      "卖方建议书",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Procurement documentation",
+      "Seller proposals",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘实施采购’相关的项目文件和输入。",
+      "围绕‘实施采购’完成年夜饭专属活动：围绕项目采购管理的‘实施采购’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `08-procurement/12-2-实施采购.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Conduct Procurements.",
+      "Perform the dinner-specific activity for Conduct Procurements: source ingredients by quality, price, and delivery time.",
+      "Save outputs to `08-procurement/12-2-实施采购.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "选定的卖方",
+      "协议",
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新",
+      "组织过程资产更新"
+    ],
+    "outputsEn": [
+      "Selected sellers",
+      "Agreements",
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates",
+      "Organizational process assets updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `08-procurement/12-2-实施采购.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `08-procurement/12-2-实施采购.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证实施采购状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Conduct Procurements becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-12.3",
+    "processCode": "12.3",
+    "nameZh": "控制采购",
+    "nameEn": "Control Procurements",
+    "processGroup": "监控过程组",
+    "knowledgeArea": "项目采购管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“控制采购”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Control Procurements for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "比较菜市场和线上供应，按质量、价格、交付时间采购",
+    "focusEn": "source ingredients by quality, price, and delivery time",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G2执行准备已完成",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 监控过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "协议",
+      "采购文档",
+      "批准的变更请求",
+      "工作绩效数据",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Agreements",
+      "Procurement documentation",
+      "Approved change requests",
+      "Work performance data",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘控制采购’相关的项目文件和输入。",
+      "围绕‘控制采购’完成年夜饭专属活动：围绕项目采购管理的‘控制采购’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `08-procurement/12-3-控制采购.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Control Procurements.",
+      "Perform the dinner-specific activity for Control Procurements: source ingredients by quality, price, and delivery time.",
+      "Save outputs to `08-procurement/12-3-控制采购.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "结束的采购",
+      "工作绩效信息",
+      "采购文档更新",
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新",
+      "组织过程资产更新"
+    ],
+    "outputsEn": [
+      "Closed procurements",
+      "Work performance information",
+      "Procurement documentation updates",
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates",
+      "Organizational process assets updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `08-procurement/12-3-控制采购.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `08-procurement/12-3-控制采购.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证控制采购状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Control Procurements becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-13.1",
+    "processCode": "13.1",
+    "nameZh": "识别干系人",
+    "nameEn": "Identify Stakeholders",
+    "processGroup": "启动过程组",
+    "knowledgeArea": "项目干系人管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“识别干系人”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Identify Stakeholders for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "平衡老人、小孩、厨师和不吃辣家人的需求",
+    "focusEn": "balance the needs of elders, children, cooks, and non-spicy diners",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "商业机会和发起人可识别",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 启动过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目章程",
+      "商业文件",
+      "项目管理计划",
+      "项目文件",
+      "协议",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project charter",
+      "Business documents",
+      "Project management plan",
+      "Project documents",
+      "Agreements",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘识别干系人’相关的项目文件和输入。",
+      "围绕‘识别干系人’完成年夜饭专属活动：围绕项目干系人管理的‘识别干系人’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `09-stakeholder/13-1-识别干系人.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Identify Stakeholders.",
+      "Perform the dinner-specific activity for Identify Stakeholders: balance the needs of elders, children, cooks, and non-spicy diners.",
+      "Save outputs to `09-stakeholder/13-1-识别干系人.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "干系人登记册",
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Stakeholder register",
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `09-stakeholder/13-1-识别干系人.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `09-stakeholder/13-1-识别干系人.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目章程’，验证识别干系人状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project charter' and verify that Identify Stakeholders becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-13.2",
+    "processCode": "13.2",
+    "nameZh": "规划干系人参与",
+    "nameEn": "Plan Stakeholder Engagement",
+    "processGroup": "规划过程组",
+    "knowledgeArea": "项目干系人管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“规划干系人参与”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Plan Stakeholder Engagement for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "平衡老人、小孩、厨师和不吃辣家人的需求",
+    "focusEn": "balance the needs of elders, children, cooks, and non-spicy diners",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G0启动门禁已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 规划过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目章程",
+      "项目管理计划",
+      "项目文件",
+      "协议",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project charter",
+      "Project management plan",
+      "Project documents",
+      "Agreements",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘规划干系人参与’相关的项目文件和输入。",
+      "围绕‘规划干系人参与’完成年夜饭专属活动：围绕项目干系人管理的‘规划干系人参与’完成一次年夜饭场景演练，明确输入、判断、责任人和输出。",
+      "保存过程输出到 `09-stakeholder/13-2-规划干系人参与.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Plan Stakeholder Engagement.",
+      "Perform the dinner-specific activity for Plan Stakeholder Engagement: balance the needs of elders, children, cooks, and non-spicy diners.",
+      "Save outputs to `09-stakeholder/13-2-规划干系人参与.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "干系人参与计划",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Stakeholder engagement plan",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `09-stakeholder/13-2-规划干系人参与.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `09-stakeholder/13-2-规划干系人参与.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目章程’，验证规划干系人参与状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project charter' and verify that Plan Stakeholder Engagement becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-13.3",
+    "processCode": "13.3",
+    "nameZh": "管理干系人参与",
+    "nameEn": "Manage Stakeholder Engagement",
+    "processGroup": "执行过程组",
+    "knowledgeArea": "项目干系人管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“管理干系人参与”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Manage Stakeholder Engagement for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "平衡老人、小孩、厨师和不吃辣家人的需求",
+    "focusEn": "balance the needs of elders, children, cooks, and non-spicy diners",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G1计划和基线已批准",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 执行过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘管理干系人参与’相关的项目文件和输入。",
+      "围绕‘管理干系人参与’完成年夜饭专属活动：协调老人、小朋友和厨师对菜单冲突的解决方案。",
+      "保存过程输出到 `09-stakeholder/13-3-管理干系人参与.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Manage Stakeholder Engagement.",
+      "Perform the dinner-specific activity for Manage Stakeholder Engagement: balance the needs of elders, children, cooks, and non-spicy diners.",
+      "Save outputs to `09-stakeholder/13-3-管理干系人参与.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `09-stakeholder/13-3-管理干系人参与.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `09-stakeholder/13-3-管理干系人参与.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证管理干系人参与状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Manage Stakeholder Engagement becomes blocked with a visible gap."
+  },
+  {
+    "id": "TC-13.4",
+    "processCode": "13.4",
+    "nameZh": "监督干系人参与",
+    "nameEn": "Monitor Stakeholder Engagement",
+    "processGroup": "监控过程组",
+    "knowledgeArea": "项目干系人管理",
+    "scenarioZh": "为2027年家庭年夜饭测试“监督干系人参与”：12位家人，预算1200元，除夕19:00开饭。",
+    "scenarioEn": "Test Monitor Stakeholder Engagement for a 2027 family New Year dinner: 12 guests, RMB 1,200, dinner at 19:00 on New Year's Eve.",
+    "focusZh": "平衡老人、小孩、厨师和不吃辣家人的需求",
+    "focusEn": "balance the needs of elders, children, cooks, and non-spicy diners",
+    "preconditionsZh": [
+      "项目目录已初始化且项目经理为爸爸",
+      "G2执行准备已完成",
+      "家庭成员和饮食限制已收集"
+    ],
+    "preconditionsEn": [
+      "The project workspace exists and Dad is the project manager",
+      "The prerequisite for the 监控过程组 stage is satisfied",
+      "Family members and dietary constraints are known"
+    ],
+    "inputsZh": [
+      "项目管理计划",
+      "项目文件",
+      "工作绩效数据",
+      "事业环境因素",
+      "组织过程资产"
+    ],
+    "inputsEn": [
+      "Project management plan",
+      "Project documents",
+      "Work performance data",
+      "Enterprise environmental factors",
+      "Organizational process assets"
+    ],
+    "actionsZh": [
+      "读取与‘监督干系人参与’相关的项目文件和输入。",
+      "围绕‘监督干系人参与’完成年夜饭专属活动：回访家人满意度并记录是否需要调整沟通或参与方式。",
+      "保存过程输出到 `09-stakeholder/13-4-监督干系人参与.md`，并在决策日志记录责任人、日期和下一步。"
+    ],
+    "actionsEn": [
+      "Read the project files and inputs for Monitor Stakeholder Engagement.",
+      "Perform the dinner-specific activity for Monitor Stakeholder Engagement: balance the needs of elders, children, cooks, and non-spicy diners.",
+      "Save outputs to `09-stakeholder/13-4-监督干系人参与.md` and record owner, date, and next action in the decision log."
+    ],
+    "outputsZh": [
+      "工作绩效信息",
+      "变更请求",
+      "项目管理计划更新",
+      "项目文件更新"
+    ],
+    "outputsEn": [
+      "Work performance information",
+      "Change requests",
+      "Project management plan updates",
+      "Project documents updates"
+    ],
+    "acceptanceZh": [
+      "最小产出文件 `09-stakeholder/13-4-监督干系人参与.md` 存在且内容可追溯",
+      "责任人和后续行动明确",
+      "若无法完成，状态为blocked并写明缺口；若豁免，状态为waived并记录批准人"
+    ],
+    "acceptanceEn": [
+      "The minimum artifact `09-stakeholder/13-4-监督干系人参与.md` exists and is traceable",
+      "An owner and next action are explicit",
+      "If incomplete, mark blocked with the gap; if waived, record the approver"
+    ],
+    "negativeZh": "删除或留空关键输入‘项目管理计划’，验证监督干系人参与状态变为blocked并显示缺口。",
+    "negativeEn": "Remove or blank the key input 'Project management plan' and verify that Monitor Stakeholder Engagement becomes blocked with a visible gap."
+  }
+]

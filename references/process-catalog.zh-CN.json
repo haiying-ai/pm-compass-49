@@ -1,0 +1,3352 @@
+{
+  "schemaVersion": "1.0.0",
+  "methodology": "PMBOK6-predictive-soft-exam",
+  "source": "workspace pmbok-process-map snapshot",
+  "groups": [
+    {
+      "en": "Initiating",
+      "zh": "启动过程组",
+      "short": "启动",
+      "color": "#2563EB",
+      "pale": "#EFF6FF"
+    },
+    {
+      "en": "Planning",
+      "zh": "规划过程组",
+      "short": "规划",
+      "color": "#059669",
+      "pale": "#ECFDF5"
+    },
+    {
+      "en": "Executing",
+      "zh": "执行过程组",
+      "short": "执行",
+      "color": "#D97706",
+      "pale": "#FFFBEB"
+    },
+    {
+      "en": "Monitoring & Controlling",
+      "zh": "监控过程组",
+      "short": "监控",
+      "color": "#7C3AED",
+      "pale": "#F5F3FF"
+    },
+    {
+      "en": "Closing",
+      "zh": "收尾过程组",
+      "short": "收尾",
+      "color": "#DC2626",
+      "pale": "#FEF2F2"
+    }
+  ],
+  "areas": [
+    {
+      "en": "Integration Management",
+      "zh": "项目整合管理",
+      "code": "4"
+    },
+    {
+      "en": "Scope Management",
+      "zh": "项目范围管理",
+      "code": "5"
+    },
+    {
+      "en": "Schedule Management",
+      "zh": "项目进度管理",
+      "code": "6"
+    },
+    {
+      "en": "Cost Management",
+      "zh": "项目成本管理",
+      "code": "7"
+    },
+    {
+      "en": "Quality Management",
+      "zh": "项目质量管理",
+      "code": "8"
+    },
+    {
+      "en": "Resource Management",
+      "zh": "项目资源管理",
+      "code": "9"
+    },
+    {
+      "en": "Communications Management",
+      "zh": "项目沟通管理",
+      "code": "10"
+    },
+    {
+      "en": "Risk Management",
+      "zh": "项目风险管理",
+      "code": "11"
+    },
+    {
+      "en": "Procurement Management",
+      "zh": "项目采购管理",
+      "code": "12"
+    },
+    {
+      "en": "Stakeholder Management",
+      "zh": "项目干系人管理",
+      "code": "13"
+    }
+  ],
+  "processes": [
+    {
+      "code": "4.1",
+      "nameZh": "制定项目章程",
+      "nameEn": "Develop Project Charter",
+      "processGroup": "启动过程组",
+      "knowledgeArea": "项目整合管理",
+      "keywordsZh": [
+        "制定项目章程",
+        "启动过程组",
+        "项目整合管理"
+      ],
+      "keywordsEn": [
+        "Develop Project Charter",
+        "Initiating",
+        "Integration Management"
+      ],
+      "purpose": "通过“制定项目章程”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "商业文件",
+        "协议",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "项目章程",
+        "假设日志"
+      ],
+      "inputsEn": [
+        "Business documents",
+        "Agreements",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Project charter",
+        "Assumption log"
+      ],
+      "requiredArtifacts": [
+        "00-governance/4-1-制定项目章程.md"
+      ],
+      "entryCriteria": [
+        "已识别Integration Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "G0",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "4.2",
+      "nameZh": "制定项目管理计划",
+      "nameEn": "Develop Project Management Plan",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目整合管理",
+      "keywordsZh": [
+        "制定项目管理计划",
+        "规划过程组",
+        "项目整合管理"
+      ],
+      "keywordsEn": [
+        "Develop Project Management Plan",
+        "Integration Management",
+        "Planning"
+      ],
+      "purpose": "通过“制定项目管理计划”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目章程",
+        "其他过程的输出",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "项目管理计划"
+      ],
+      "inputsEn": [
+        "Project charter",
+        "Outputs from other processes",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Project management plan"
+      ],
+      "requiredArtifacts": [
+        "00-governance/4-2-制定项目管理计划.md"
+      ],
+      "entryCriteria": [
+        "已识别Integration Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "G1",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "4.3",
+      "nameZh": "指导与管理项目工作",
+      "nameEn": "Direct and Manage Project Work",
+      "processGroup": "执行过程组",
+      "knowledgeArea": "项目整合管理",
+      "keywordsZh": [
+        "执行过程组",
+        "指导与管理项目工作",
+        "项目整合管理"
+      ],
+      "keywordsEn": [
+        "Direct and Manage Project Work",
+        "Executing",
+        "Integration Management"
+      ],
+      "purpose": "通过“指导与管理项目工作”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "批准的变更请求",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "可交付成果",
+        "工作绩效数据",
+        "问题日志",
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新",
+        "组织过程资产更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Approved change requests",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Deliverables",
+        "Work performance data",
+        "Issue log",
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates",
+        "Organizational process assets updates"
+      ],
+      "requiredArtifacts": [
+        "00-governance/4-3-指导与管理项目工作.md"
+      ],
+      "entryCriteria": [
+        "已识别Integration Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "G2",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "4.4",
+      "nameZh": "管理项目知识",
+      "nameEn": "Manage Project Knowledge",
+      "processGroup": "执行过程组",
+      "knowledgeArea": "项目整合管理",
+      "keywordsZh": [
+        "执行过程组",
+        "管理项目知识",
+        "项目整合管理"
+      ],
+      "keywordsEn": [
+        "Executing",
+        "Integration Management",
+        "Manage Project Knowledge"
+      ],
+      "purpose": "通过“管理项目知识”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "可交付成果",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "经验教训登记册",
+        "项目管理计划更新",
+        "组织过程资产更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Deliverables",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Lessons learned register",
+        "Project management plan updates",
+        "Organizational process assets updates"
+      ],
+      "requiredArtifacts": [
+        "00-governance/4-4-管理项目知识.md"
+      ],
+      "entryCriteria": [
+        "已识别Integration Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "4.5",
+      "nameZh": "监控项目工作",
+      "nameEn": "Monitor and Control Project Work",
+      "processGroup": "监控过程组",
+      "knowledgeArea": "项目整合管理",
+      "keywordsZh": [
+        "监控过程组",
+        "监控项目工作",
+        "项目整合管理"
+      ],
+      "keywordsEn": [
+        "Integration Management",
+        "Monitor and Control Project Work",
+        "Monitoring & Controlling"
+      ],
+      "purpose": "通过“监控项目工作”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "工作绩效信息",
+        "协议",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "工作绩效报告",
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Work performance information",
+        "Agreements",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Work performance reports",
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "00-governance/4-5-监控项目工作.md"
+      ],
+      "entryCriteria": [
+        "已识别Integration Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "4.6",
+      "nameZh": "实施整体变更控制",
+      "nameEn": "Perform Integrated Change Control",
+      "processGroup": "监控过程组",
+      "knowledgeArea": "项目整合管理",
+      "keywordsZh": [
+        "实施整体变更控制",
+        "监控过程组",
+        "项目整合管理"
+      ],
+      "keywordsEn": [
+        "Integration Management",
+        "Monitoring & Controlling",
+        "Perform Integrated Change Control"
+      ],
+      "purpose": "通过“实施整体变更控制”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "工作绩效报告",
+        "变更请求",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "批准的变更请求",
+        "项目管理计划更新",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Work performance reports",
+        "Change requests",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Approved change requests",
+        "Project management plan updates",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "00-governance/4-6-实施整体变更控制.md"
+      ],
+      "entryCriteria": [
+        "已识别Integration Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "4.7",
+      "nameZh": "结束项目或阶段",
+      "nameEn": "Close Project or Phase",
+      "processGroup": "收尾过程组",
+      "knowledgeArea": "项目整合管理",
+      "keywordsZh": [
+        "收尾过程组",
+        "结束项目或阶段",
+        "项目整合管理"
+      ],
+      "keywordsEn": [
+        "Close Project or Phase",
+        "Closing",
+        "Integration Management"
+      ],
+      "purpose": "通过“结束项目或阶段”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目章程",
+        "项目管理计划",
+        "项目文件",
+        "验收的可交付成果",
+        "商业文件",
+        "协议",
+        "采购文档",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "项目文件更新",
+        "最终产品、服务或成果移交",
+        "最终报告",
+        "组织过程资产更新"
+      ],
+      "inputsEn": [
+        "Project charter",
+        "Project management plan",
+        "Project documents",
+        "Accepted deliverables",
+        "Business documents",
+        "Agreements",
+        "Procurement documentation",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Project documents updates",
+        "Final product, service, or result transition",
+        "Final report",
+        "Organizational process assets updates"
+      ],
+      "requiredArtifacts": [
+        "00-governance/4-7-结束项目或阶段.md"
+      ],
+      "entryCriteria": [
+        "已识别Integration Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "G4",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "5.1",
+      "nameZh": "规划范围管理",
+      "nameEn": "Plan Scope Management",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目范围管理",
+      "keywordsZh": [
+        "WBS",
+        "范围",
+        "规划范围管理",
+        "规划过程组",
+        "需求",
+        "项目范围管理"
+      ],
+      "keywordsEn": [
+        "Plan Scope Management",
+        "Planning",
+        "Scope Management"
+      ],
+      "purpose": "通过“规划范围管理”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目章程",
+        "项目管理计划",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "范围管理计划",
+        "需求管理计划"
+      ],
+      "inputsEn": [
+        "Project charter",
+        "Project management plan",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Scope management plan",
+        "Requirements management plan"
+      ],
+      "requiredArtifacts": [
+        "01-scope/5-1-规划范围管理.md"
+      ],
+      "entryCriteria": [
+        "已识别Scope Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "5.2",
+      "nameZh": "收集需求",
+      "nameEn": "Collect Requirements",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目范围管理",
+      "keywordsZh": [
+        "WBS",
+        "收集需求",
+        "范围",
+        "规划过程组",
+        "需求",
+        "项目范围管理"
+      ],
+      "keywordsEn": [
+        "Collect Requirements",
+        "Planning",
+        "Scope Management"
+      ],
+      "purpose": "通过“收集需求”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目章程",
+        "项目管理计划",
+        "项目文件",
+        "商业文件",
+        "协议",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "需求文件",
+        "需求跟踪矩阵"
+      ],
+      "inputsEn": [
+        "Project charter",
+        "Project management plan",
+        "Project documents",
+        "Business documents",
+        "Agreements",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Requirements documentation",
+        "Requirements traceability matrix"
+      ],
+      "requiredArtifacts": [
+        "01-scope/5-2-收集需求.md"
+      ],
+      "entryCriteria": [
+        "已识别Scope Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "5.3",
+      "nameZh": "定义范围",
+      "nameEn": "Define Scope",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目范围管理",
+      "keywordsZh": [
+        "WBS",
+        "定义范围",
+        "范围",
+        "规划过程组",
+        "需求",
+        "项目范围管理"
+      ],
+      "keywordsEn": [
+        "Define Scope",
+        "Planning",
+        "Scope Management"
+      ],
+      "purpose": "通过“定义范围”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目章程",
+        "项目管理计划",
+        "项目文件",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "项目范围说明书",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project charter",
+        "Project management plan",
+        "Project documents",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Project scope statement",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "01-scope/5-3-定义范围.md"
+      ],
+      "entryCriteria": [
+        "已识别Scope Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "5.4",
+      "nameZh": "创建 WBS",
+      "nameEn": "Create WBS",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目范围管理",
+      "keywordsZh": [
+        "WBS",
+        "创建 WBS",
+        "范围",
+        "规划过程组",
+        "需求",
+        "项目范围管理"
+      ],
+      "keywordsEn": [
+        "Create WBS",
+        "Planning",
+        "Scope Management"
+      ],
+      "purpose": "通过“创建 WBS”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "范围基准",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Scope baseline",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "01-scope/5-4-创建 WBS.md"
+      ],
+      "entryCriteria": [
+        "已识别Scope Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "5.5",
+      "nameZh": "确认范围",
+      "nameEn": "Validate Scope",
+      "processGroup": "监控过程组",
+      "knowledgeArea": "项目范围管理",
+      "keywordsZh": [
+        "WBS",
+        "监控过程组",
+        "确认范围",
+        "范围",
+        "需求",
+        "项目范围管理"
+      ],
+      "keywordsEn": [
+        "Monitoring & Controlling",
+        "Scope Management",
+        "Validate Scope"
+      ],
+      "purpose": "通过“确认范围”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "核实的可交付成果",
+        "工作绩效数据"
+      ],
+      "outputs": [
+        "验收的可交付成果",
+        "工作绩效信息",
+        "变更请求",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Verified deliverables",
+        "Work performance data"
+      ],
+      "outputsEn": [
+        "Accepted deliverables",
+        "Work performance information",
+        "Change requests",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "01-scope/5-5-确认范围.md"
+      ],
+      "entryCriteria": [
+        "已识别Scope Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "G3",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "5.6",
+      "nameZh": "控制范围",
+      "nameEn": "Control Scope",
+      "processGroup": "监控过程组",
+      "knowledgeArea": "项目范围管理",
+      "keywordsZh": [
+        "WBS",
+        "控制范围",
+        "监控过程组",
+        "范围",
+        "需求",
+        "项目范围管理"
+      ],
+      "keywordsEn": [
+        "Control Scope",
+        "Monitoring & Controlling",
+        "Scope Management"
+      ],
+      "purpose": "通过“控制范围”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "工作绩效数据",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "工作绩效信息",
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Work performance data",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Work performance information",
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "01-scope/5-6-控制范围.md"
+      ],
+      "entryCriteria": [
+        "已识别Scope Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "G3",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "6.1",
+      "nameZh": "规划进度管理",
+      "nameEn": "Plan Schedule Management",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目进度管理",
+      "keywordsZh": [
+        "排期",
+        "时间表",
+        "规划过程组",
+        "规划进度管理",
+        "进度",
+        "项目进度管理"
+      ],
+      "keywordsEn": [
+        "Plan Schedule Management",
+        "Planning",
+        "Schedule Management"
+      ],
+      "purpose": "通过“规划进度管理”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目章程",
+        "项目管理计划",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "进度管理计划"
+      ],
+      "inputsEn": [
+        "Project charter",
+        "Project management plan",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Schedule management plan"
+      ],
+      "requiredArtifacts": [
+        "02-schedule/6-1-规划进度管理.md"
+      ],
+      "entryCriteria": [
+        "已识别Schedule Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "6.2",
+      "nameZh": "定义活动",
+      "nameEn": "Define Activities",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目进度管理",
+      "keywordsZh": [
+        "定义活动",
+        "排期",
+        "时间表",
+        "规划过程组",
+        "进度",
+        "项目进度管理"
+      ],
+      "keywordsEn": [
+        "Define Activities",
+        "Planning",
+        "Schedule Management"
+      ],
+      "purpose": "通过“定义活动”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "活动清单",
+        "活动属性",
+        "里程碑清单",
+        "变更请求",
+        "项目管理计划更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Activity list",
+        "Activity attributes",
+        "Milestone list",
+        "Change requests",
+        "Project management plan updates"
+      ],
+      "requiredArtifacts": [
+        "02-schedule/6-2-定义活动.md"
+      ],
+      "entryCriteria": [
+        "已识别Schedule Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "6.3",
+      "nameZh": "排列活动顺序",
+      "nameEn": "Sequence Activities",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目进度管理",
+      "keywordsZh": [
+        "排列活动顺序",
+        "排期",
+        "时间表",
+        "规划过程组",
+        "进度",
+        "项目进度管理"
+      ],
+      "keywordsEn": [
+        "Planning",
+        "Schedule Management",
+        "Sequence Activities"
+      ],
+      "purpose": "通过“排列活动顺序”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "项目进度网络图",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Project schedule network diagrams",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "02-schedule/6-3-排列活动顺序.md"
+      ],
+      "entryCriteria": [
+        "已识别Schedule Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "6.4",
+      "nameZh": "估算活动持续时间",
+      "nameEn": "Estimate Activity Durations",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目进度管理",
+      "keywordsZh": [
+        "估算活动持续时间",
+        "排期",
+        "时间表",
+        "规划过程组",
+        "进度",
+        "项目进度管理"
+      ],
+      "keywordsEn": [
+        "Estimate Activity Durations",
+        "Planning",
+        "Schedule Management"
+      ],
+      "purpose": "通过“估算活动持续时间”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "持续时间估算",
+        "估算依据",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Duration estimates",
+        "Basis of estimates",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "02-schedule/6-4-估算活动持续时间.md"
+      ],
+      "entryCriteria": [
+        "已识别Schedule Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "6.5",
+      "nameZh": "制定进度计划",
+      "nameEn": "Develop Schedule",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目进度管理",
+      "keywordsZh": [
+        "制定进度计划",
+        "排期",
+        "时间表",
+        "规划过程组",
+        "进度",
+        "项目进度管理"
+      ],
+      "keywordsEn": [
+        "Develop Schedule",
+        "Planning",
+        "Schedule Management"
+      ],
+      "purpose": "通过“制定进度计划”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "协议",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "进度基准",
+        "项目进度计划",
+        "进度数据",
+        "项目日历",
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Agreements",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Schedule baseline",
+        "Project schedule",
+        "Schedule data",
+        "Project calendars",
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "02-schedule/6-5-制定进度计划.md"
+      ],
+      "entryCriteria": [
+        "已识别Schedule Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "6.6",
+      "nameZh": "控制进度",
+      "nameEn": "Control Schedule",
+      "processGroup": "监控过程组",
+      "knowledgeArea": "项目进度管理",
+      "keywordsZh": [
+        "排期",
+        "控制进度",
+        "时间表",
+        "监控过程组",
+        "进度",
+        "项目进度管理"
+      ],
+      "keywordsEn": [
+        "Control Schedule",
+        "Monitoring & Controlling",
+        "Schedule Management"
+      ],
+      "purpose": "通过“控制进度”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "工作绩效数据",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "工作绩效信息",
+        "进度预测",
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Work performance data",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Work performance information",
+        "Schedule forecasts",
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "02-schedule/6-6-控制进度.md"
+      ],
+      "entryCriteria": [
+        "已识别Schedule Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "G3",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "7.1",
+      "nameZh": "规划成本管理",
+      "nameEn": "Plan Cost Management",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目成本管理",
+      "keywordsZh": [
+        "成本",
+        "规划成本管理",
+        "规划过程组",
+        "费用",
+        "项目成本管理",
+        "预算"
+      ],
+      "keywordsEn": [
+        "Cost Management",
+        "Plan Cost Management",
+        "Planning"
+      ],
+      "purpose": "通过“规划成本管理”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目章程",
+        "项目管理计划",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "成本管理计划"
+      ],
+      "inputsEn": [
+        "Project charter",
+        "Project management plan",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Cost management plan"
+      ],
+      "requiredArtifacts": [
+        "03-cost/7-1-规划成本管理.md"
+      ],
+      "entryCriteria": [
+        "已识别Cost Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "7.2",
+      "nameZh": "估算成本",
+      "nameEn": "Estimate Costs",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目成本管理",
+      "keywordsZh": [
+        "估算成本",
+        "成本",
+        "规划过程组",
+        "费用",
+        "项目成本管理",
+        "预算"
+      ],
+      "keywordsEn": [
+        "Cost Management",
+        "Estimate Costs",
+        "Planning"
+      ],
+      "purpose": "通过“估算成本”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "成本估算",
+        "估算依据",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Cost estimates",
+        "Basis of estimates",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "03-cost/7-2-估算成本.md"
+      ],
+      "entryCriteria": [
+        "已识别Cost Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "7.3",
+      "nameZh": "制定预算",
+      "nameEn": "Determine Budget",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目成本管理",
+      "keywordsZh": [
+        "制定预算",
+        "成本",
+        "规划过程组",
+        "费用",
+        "项目成本管理",
+        "预算"
+      ],
+      "keywordsEn": [
+        "Cost Management",
+        "Determine Budget",
+        "Planning"
+      ],
+      "purpose": "通过“制定预算”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "商业文件",
+        "协议",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "成本基准",
+        "项目资金需求",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Business documents",
+        "Agreements",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Cost baseline",
+        "Project funding requirements",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "03-cost/7-3-制定预算.md"
+      ],
+      "entryCriteria": [
+        "已识别Cost Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "7.4",
+      "nameZh": "控制成本",
+      "nameEn": "Control Costs",
+      "processGroup": "监控过程组",
+      "knowledgeArea": "项目成本管理",
+      "keywordsZh": [
+        "成本",
+        "控制成本",
+        "监控过程组",
+        "费用",
+        "项目成本管理",
+        "预算"
+      ],
+      "keywordsEn": [
+        "Control Costs",
+        "Cost Management",
+        "Monitoring & Controlling"
+      ],
+      "purpose": "通过“控制成本”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "项目资金需求",
+        "工作绩效数据",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "工作绩效信息",
+        "成本预测",
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Project funding requirements",
+        "Work performance data",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Work performance information",
+        "Cost forecasts",
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "03-cost/7-4-控制成本.md"
+      ],
+      "entryCriteria": [
+        "已识别Cost Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "G3",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "8.1",
+      "nameZh": "规划质量管理",
+      "nameEn": "Plan Quality Management",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目质量管理",
+      "keywordsZh": [
+        "规划质量管理",
+        "规划过程组",
+        "项目质量管理"
+      ],
+      "keywordsEn": [
+        "Plan Quality Management",
+        "Planning",
+        "Quality Management"
+      ],
+      "purpose": "通过“规划质量管理”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目章程",
+        "项目管理计划",
+        "项目文件",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "质量管理计划",
+        "质量测量指标",
+        "项目管理计划更新",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project charter",
+        "Project management plan",
+        "Project documents",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Quality management plan",
+        "Quality metrics",
+        "Project management plan updates",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "04-quality/8-1-规划质量管理.md"
+      ],
+      "entryCriteria": [
+        "已识别Quality Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "8.2",
+      "nameZh": "管理质量",
+      "nameEn": "Manage Quality",
+      "processGroup": "执行过程组",
+      "knowledgeArea": "项目质量管理",
+      "keywordsZh": [
+        "执行过程组",
+        "管理质量",
+        "项目质量管理"
+      ],
+      "keywordsEn": [
+        "Executing",
+        "Manage Quality",
+        "Quality Management"
+      ],
+      "purpose": "通过“管理质量”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "质量报告",
+        "测试与评估文件",
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Quality reports",
+        "Test and evaluation documents",
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "04-quality/8-2-管理质量.md"
+      ],
+      "entryCriteria": [
+        "已识别Quality Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "8.3",
+      "nameZh": "控制质量",
+      "nameEn": "Control Quality",
+      "processGroup": "监控过程组",
+      "knowledgeArea": "项目质量管理",
+      "keywordsZh": [
+        "控制质量",
+        "监控过程组",
+        "项目质量管理"
+      ],
+      "keywordsEn": [
+        "Control Quality",
+        "Monitoring & Controlling",
+        "Quality Management"
+      ],
+      "purpose": "通过“控制质量”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "批准的变更请求",
+        "可交付成果",
+        "工作绩效数据",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "质量控制测量结果",
+        "核实的可交付成果",
+        "工作绩效信息",
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Approved change requests",
+        "Deliverables",
+        "Work performance data",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Quality control measurements",
+        "Verified deliverables",
+        "Work performance information",
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "04-quality/8-3-控制质量.md"
+      ],
+      "entryCriteria": [
+        "已识别Quality Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "G3",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "9.1",
+      "nameZh": "规划资源管理",
+      "nameEn": "Plan Resource Management",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目资源管理",
+      "keywordsZh": [
+        "规划资源管理",
+        "规划过程组",
+        "项目资源管理"
+      ],
+      "keywordsEn": [
+        "Plan Resource Management",
+        "Planning",
+        "Resource Management"
+      ],
+      "purpose": "通过“规划资源管理”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目章程",
+        "项目管理计划",
+        "项目文件",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "资源管理计划",
+        "团队章程",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project charter",
+        "Project management plan",
+        "Project documents",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Resource management plan",
+        "Team charter",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "05-resource/9-1-规划资源管理.md"
+      ],
+      "entryCriteria": [
+        "已识别Resource Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "9.2",
+      "nameZh": "估算活动资源",
+      "nameEn": "Estimate Activity Resources",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目资源管理",
+      "keywordsZh": [
+        "估算活动资源",
+        "规划过程组",
+        "项目资源管理"
+      ],
+      "keywordsEn": [
+        "Estimate Activity Resources",
+        "Planning",
+        "Resource Management"
+      ],
+      "purpose": "通过“估算活动资源”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "资源需求",
+        "估算依据",
+        "资源分解结构",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Resource requirements",
+        "Basis of estimates",
+        "Resource breakdown structure",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "05-resource/9-2-估算活动资源.md"
+      ],
+      "entryCriteria": [
+        "已识别Resource Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "9.3",
+      "nameZh": "获取资源",
+      "nameEn": "Acquire Resources",
+      "processGroup": "执行过程组",
+      "knowledgeArea": "项目资源管理",
+      "keywordsZh": [
+        "执行过程组",
+        "获取资源",
+        "项目资源管理"
+      ],
+      "keywordsEn": [
+        "Acquire Resources",
+        "Executing",
+        "Resource Management"
+      ],
+      "purpose": "通过“获取资源”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "实物资源分配单",
+        "项目团队派工单",
+        "资源日历",
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新",
+        "事业环境因素更新",
+        "组织过程资产更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Physical resource assignments",
+        "Project team assignments",
+        "Resource calendars",
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates",
+        "Enterprise environmental factors updates",
+        "Organizational process assets updates"
+      ],
+      "requiredArtifacts": [
+        "05-resource/9-3-获取资源.md"
+      ],
+      "entryCriteria": [
+        "已识别Resource Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "9.4",
+      "nameZh": "建设团队",
+      "nameEn": "Develop Team",
+      "processGroup": "执行过程组",
+      "knowledgeArea": "项目资源管理",
+      "keywordsZh": [
+        "建设团队",
+        "执行过程组",
+        "项目资源管理"
+      ],
+      "keywordsEn": [
+        "Develop Team",
+        "Executing",
+        "Resource Management"
+      ],
+      "purpose": "通过“建设团队”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "团队绩效评价",
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新",
+        "事业环境因素更新",
+        "组织过程资产更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Team performance assessments",
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates",
+        "Enterprise environmental factors updates",
+        "Organizational process assets updates"
+      ],
+      "requiredArtifacts": [
+        "05-resource/9-4-建设团队.md"
+      ],
+      "entryCriteria": [
+        "已识别Resource Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "9.5",
+      "nameZh": "管理团队",
+      "nameEn": "Manage Team",
+      "processGroup": "执行过程组",
+      "knowledgeArea": "项目资源管理",
+      "keywordsZh": [
+        "执行过程组",
+        "管理团队",
+        "项目资源管理"
+      ],
+      "keywordsEn": [
+        "Executing",
+        "Manage Team",
+        "Resource Management"
+      ],
+      "purpose": "通过“管理团队”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "工作绩效报告",
+        "团队绩效评价",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新",
+        "事业环境因素更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Work performance reports",
+        "Team performance assessments",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates",
+        "Enterprise environmental factors updates"
+      ],
+      "requiredArtifacts": [
+        "05-resource/9-5-管理团队.md"
+      ],
+      "entryCriteria": [
+        "已识别Resource Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "9.6",
+      "nameZh": "控制资源",
+      "nameEn": "Control Resources",
+      "processGroup": "监控过程组",
+      "knowledgeArea": "项目资源管理",
+      "keywordsZh": [
+        "控制资源",
+        "监控过程组",
+        "项目资源管理"
+      ],
+      "keywordsEn": [
+        "Control Resources",
+        "Monitoring & Controlling",
+        "Resource Management"
+      ],
+      "purpose": "通过“控制资源”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "工作绩效数据",
+        "协议",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "工作绩效信息",
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Work performance data",
+        "Agreements",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Work performance information",
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "05-resource/9-6-控制资源.md"
+      ],
+      "entryCriteria": [
+        "已识别Resource Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "G3",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "10.1",
+      "nameZh": "规划沟通管理",
+      "nameEn": "Plan Communications Management",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目沟通管理",
+      "keywordsZh": [
+        "规划沟通管理",
+        "规划过程组",
+        "项目沟通管理"
+      ],
+      "keywordsEn": [
+        "Communications Management",
+        "Plan Communications Management",
+        "Planning"
+      ],
+      "purpose": "通过“规划沟通管理”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目章程",
+        "项目管理计划",
+        "项目文件",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "沟通管理计划",
+        "项目管理计划更新",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project charter",
+        "Project management plan",
+        "Project documents",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Communications management plan",
+        "Project management plan updates",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "06-communications/10-1-规划沟通管理.md"
+      ],
+      "entryCriteria": [
+        "已识别Communications Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "10.2",
+      "nameZh": "管理沟通",
+      "nameEn": "Manage Communications",
+      "processGroup": "执行过程组",
+      "knowledgeArea": "项目沟通管理",
+      "keywordsZh": [
+        "执行过程组",
+        "管理沟通",
+        "项目沟通管理"
+      ],
+      "keywordsEn": [
+        "Communications Management",
+        "Executing",
+        "Manage Communications"
+      ],
+      "purpose": "通过“管理沟通”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "工作绩效报告",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "项目沟通记录",
+        "项目管理计划更新",
+        "项目文件更新",
+        "组织过程资产更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Work performance reports",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Project communications",
+        "Project management plan updates",
+        "Project documents updates",
+        "Organizational process assets updates"
+      ],
+      "requiredArtifacts": [
+        "06-communications/10-2-管理沟通.md"
+      ],
+      "entryCriteria": [
+        "已识别Communications Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "10.3",
+      "nameZh": "监督沟通",
+      "nameEn": "Monitor Communications",
+      "processGroup": "监控过程组",
+      "knowledgeArea": "项目沟通管理",
+      "keywordsZh": [
+        "监控过程组",
+        "监督沟通",
+        "项目沟通管理"
+      ],
+      "keywordsEn": [
+        "Communications Management",
+        "Monitor Communications",
+        "Monitoring & Controlling"
+      ],
+      "purpose": "通过“监督沟通”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "工作绩效数据",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "工作绩效信息",
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Work performance data",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Work performance information",
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "06-communications/10-3-监督沟通.md"
+      ],
+      "entryCriteria": [
+        "已识别Communications Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "11.1",
+      "nameZh": "规划风险管理",
+      "nameEn": "Plan Risk Management",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目风险管理",
+      "keywordsZh": [
+        "规划过程组",
+        "规划风险管理",
+        "项目风险管理",
+        "风险",
+        "风险台账"
+      ],
+      "keywordsEn": [
+        "Plan Risk Management",
+        "Planning",
+        "Risk Management"
+      ],
+      "purpose": "通过“规划风险管理”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目章程",
+        "项目管理计划",
+        "项目文件",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "风险管理计划"
+      ],
+      "inputsEn": [
+        "Project charter",
+        "Project management plan",
+        "Project documents",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Risk management plan"
+      ],
+      "requiredArtifacts": [
+        "07-risk/11-1-规划风险管理.md"
+      ],
+      "entryCriteria": [
+        "已识别Risk Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "11.2",
+      "nameZh": "识别风险",
+      "nameEn": "Identify Risks",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目风险管理",
+      "keywordsZh": [
+        "规划过程组",
+        "识别风险",
+        "项目风险管理",
+        "风险",
+        "风险台账"
+      ],
+      "keywordsEn": [
+        "Identify Risks",
+        "Planning",
+        "Risk Management"
+      ],
+      "purpose": "通过“识别风险”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "协议",
+        "采购文档",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "风险登记册",
+        "风险报告",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Agreements",
+        "Procurement documentation",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Risk register",
+        "Risk report",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "07-risk/11-2-识别风险.md"
+      ],
+      "entryCriteria": [
+        "已识别Risk Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "11.3",
+      "nameZh": "实施定性风险分析",
+      "nameEn": "Perform Qualitative Risk Analysis",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目风险管理",
+      "keywordsZh": [
+        "实施定性风险分析",
+        "规划过程组",
+        "项目风险管理",
+        "风险",
+        "风险台账"
+      ],
+      "keywordsEn": [
+        "Perform Qualitative Risk Analysis",
+        "Planning",
+        "Risk Management"
+      ],
+      "purpose": "通过“实施定性风险分析”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "07-risk/11-3-实施定性风险分析.md"
+      ],
+      "entryCriteria": [
+        "已识别Risk Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "11.4",
+      "nameZh": "实施定量风险分析",
+      "nameEn": "Perform Quantitative Risk Analysis",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目风险管理",
+      "keywordsZh": [
+        "实施定量风险分析",
+        "规划过程组",
+        "项目风险管理",
+        "风险",
+        "风险台账"
+      ],
+      "keywordsEn": [
+        "Perform Quantitative Risk Analysis",
+        "Planning",
+        "Risk Management"
+      ],
+      "purpose": "通过“实施定量风险分析”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "07-risk/11-4-实施定量风险分析.md"
+      ],
+      "entryCriteria": [
+        "已识别Risk Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "11.5",
+      "nameZh": "规划风险应对",
+      "nameEn": "Plan Risk Responses",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目风险管理",
+      "keywordsZh": [
+        "规划过程组",
+        "规划风险应对",
+        "项目风险管理",
+        "风险",
+        "风险台账"
+      ],
+      "keywordsEn": [
+        "Plan Risk Responses",
+        "Planning",
+        "Risk Management"
+      ],
+      "purpose": "通过“规划风险应对”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "07-risk/11-5-规划风险应对.md"
+      ],
+      "entryCriteria": [
+        "已识别Risk Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "11.6",
+      "nameZh": "实施风险应对",
+      "nameEn": "Implement Risk Responses",
+      "processGroup": "执行过程组",
+      "knowledgeArea": "项目风险管理",
+      "keywordsZh": [
+        "实施风险应对",
+        "执行过程组",
+        "项目风险管理",
+        "风险",
+        "风险台账"
+      ],
+      "keywordsEn": [
+        "Executing",
+        "Implement Risk Responses",
+        "Risk Management"
+      ],
+      "purpose": "通过“实施风险应对”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "变更请求",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Change requests",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "07-risk/11-6-实施风险应对.md"
+      ],
+      "entryCriteria": [
+        "已识别Risk Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "11.7",
+      "nameZh": "监督风险",
+      "nameEn": "Monitor Risks",
+      "processGroup": "监控过程组",
+      "knowledgeArea": "项目风险管理",
+      "keywordsZh": [
+        "监控过程组",
+        "监督风险",
+        "项目风险管理",
+        "风险",
+        "风险台账"
+      ],
+      "keywordsEn": [
+        "Monitor Risks",
+        "Monitoring & Controlling",
+        "Risk Management"
+      ],
+      "purpose": "通过“监督风险”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "工作绩效数据",
+        "工作绩效报告"
+      ],
+      "outputs": [
+        "工作绩效信息",
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新",
+        "组织过程资产更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Work performance data",
+        "Work performance reports"
+      ],
+      "outputsEn": [
+        "Work performance information",
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates",
+        "Organizational process assets updates"
+      ],
+      "requiredArtifacts": [
+        "07-risk/11-7-监督风险.md"
+      ],
+      "entryCriteria": [
+        "已识别Risk Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "12.1",
+      "nameZh": "规划采购管理",
+      "nameEn": "Plan Procurement Management",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目采购管理",
+      "keywordsZh": [
+        "规划过程组",
+        "规划采购管理",
+        "项目采购管理"
+      ],
+      "keywordsEn": [
+        "Plan Procurement Management",
+        "Planning",
+        "Procurement Management"
+      ],
+      "purpose": "通过“规划采购管理”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目章程",
+        "商业文件",
+        "项目管理计划",
+        "项目文件",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "采购管理计划",
+        "采购策略",
+        "招标文件",
+        "采购工作说明书",
+        "供方选择标准",
+        "自制或外购决策",
+        "独立成本估算",
+        "变更请求",
+        "项目文件更新",
+        "组织过程资产更新"
+      ],
+      "inputsEn": [
+        "Project charter",
+        "Business documents",
+        "Project management plan",
+        "Project documents",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Procurement management plan",
+        "Procurement strategy",
+        "Bid documents",
+        "Procurement statement of work",
+        "Source selection criteria",
+        "Make-or-buy decisions",
+        "Independent cost estimates",
+        "Change requests",
+        "Project documents updates",
+        "Organizational process assets updates"
+      ],
+      "requiredArtifacts": [
+        "08-procurement/12-1-规划采购管理.md"
+      ],
+      "entryCriteria": [
+        "已识别Procurement Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "12.2",
+      "nameZh": "实施采购",
+      "nameEn": "Conduct Procurements",
+      "processGroup": "执行过程组",
+      "knowledgeArea": "项目采购管理",
+      "keywordsZh": [
+        "实施采购",
+        "执行过程组",
+        "项目采购管理"
+      ],
+      "keywordsEn": [
+        "Conduct Procurements",
+        "Executing",
+        "Procurement Management"
+      ],
+      "purpose": "通过“实施采购”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "采购文档",
+        "卖方建议书",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "选定的卖方",
+        "协议",
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新",
+        "组织过程资产更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Procurement documentation",
+        "Seller proposals",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Selected sellers",
+        "Agreements",
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates",
+        "Organizational process assets updates"
+      ],
+      "requiredArtifacts": [
+        "08-procurement/12-2-实施采购.md"
+      ],
+      "entryCriteria": [
+        "已识别Procurement Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "12.3",
+      "nameZh": "控制采购",
+      "nameEn": "Control Procurements",
+      "processGroup": "监控过程组",
+      "knowledgeArea": "项目采购管理",
+      "keywordsZh": [
+        "控制采购",
+        "监控过程组",
+        "项目采购管理"
+      ],
+      "keywordsEn": [
+        "Control Procurements",
+        "Monitoring & Controlling",
+        "Procurement Management"
+      ],
+      "purpose": "通过“控制采购”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "协议",
+        "采购文档",
+        "批准的变更请求",
+        "工作绩效数据",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "结束的采购",
+        "工作绩效信息",
+        "采购文档更新",
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新",
+        "组织过程资产更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Agreements",
+        "Procurement documentation",
+        "Approved change requests",
+        "Work performance data",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Closed procurements",
+        "Work performance information",
+        "Procurement documentation updates",
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates",
+        "Organizational process assets updates"
+      ],
+      "requiredArtifacts": [
+        "08-procurement/12-3-控制采购.md"
+      ],
+      "entryCriteria": [
+        "已识别Procurement Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "13.1",
+      "nameZh": "识别干系人",
+      "nameEn": "Identify Stakeholders",
+      "processGroup": "启动过程组",
+      "knowledgeArea": "项目干系人管理",
+      "keywordsZh": [
+        "启动过程组",
+        "识别干系人",
+        "项目干系人管理"
+      ],
+      "keywordsEn": [
+        "Identify Stakeholders",
+        "Initiating",
+        "Stakeholder Management"
+      ],
+      "purpose": "通过“识别干系人”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目章程",
+        "商业文件",
+        "项目管理计划",
+        "项目文件",
+        "协议",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "干系人登记册",
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project charter",
+        "Business documents",
+        "Project management plan",
+        "Project documents",
+        "Agreements",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Stakeholder register",
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "09-stakeholder/13-1-识别干系人.md"
+      ],
+      "entryCriteria": [
+        "已识别Stakeholder Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "13.2",
+      "nameZh": "规划干系人参与",
+      "nameEn": "Plan Stakeholder Engagement",
+      "processGroup": "规划过程组",
+      "knowledgeArea": "项目干系人管理",
+      "keywordsZh": [
+        "规划干系人参与",
+        "规划过程组",
+        "项目干系人管理"
+      ],
+      "keywordsEn": [
+        "Plan Stakeholder Engagement",
+        "Planning",
+        "Stakeholder Management"
+      ],
+      "purpose": "通过“规划干系人参与”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目章程",
+        "项目管理计划",
+        "项目文件",
+        "协议",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "干系人参与计划",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project charter",
+        "Project management plan",
+        "Project documents",
+        "Agreements",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Stakeholder engagement plan",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "09-stakeholder/13-2-规划干系人参与.md"
+      ],
+      "entryCriteria": [
+        "已识别Stakeholder Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "13.3",
+      "nameZh": "管理干系人参与",
+      "nameEn": "Manage Stakeholder Engagement",
+      "processGroup": "执行过程组",
+      "knowledgeArea": "项目干系人管理",
+      "keywordsZh": [
+        "执行过程组",
+        "管理干系人参与",
+        "项目干系人管理"
+      ],
+      "keywordsEn": [
+        "Executing",
+        "Manage Stakeholder Engagement",
+        "Stakeholder Management"
+      ],
+      "purpose": "通过“管理干系人参与”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "09-stakeholder/13-3-管理干系人参与.md"
+      ],
+      "entryCriteria": [
+        "已识别Stakeholder Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    },
+    {
+      "code": "13.4",
+      "nameZh": "监督干系人参与",
+      "nameEn": "Monitor Stakeholder Engagement",
+      "processGroup": "监控过程组",
+      "knowledgeArea": "项目干系人管理",
+      "keywordsZh": [
+        "监控过程组",
+        "监督干系人参与",
+        "项目干系人管理"
+      ],
+      "keywordsEn": [
+        "Monitor Stakeholder Engagement",
+        "Monitoring & Controlling",
+        "Stakeholder Management"
+      ],
+      "purpose": "通过“监督干系人参与”形成可审计的项目管理决策和产出物。",
+      "inputs": [
+        "项目管理计划",
+        "项目文件",
+        "工作绩效数据",
+        "事业环境因素",
+        "组织过程资产"
+      ],
+      "outputs": [
+        "工作绩效信息",
+        "变更请求",
+        "项目管理计划更新",
+        "项目文件更新"
+      ],
+      "inputsEn": [
+        "Project management plan",
+        "Project documents",
+        "Work performance data",
+        "Enterprise environmental factors",
+        "Organizational process assets"
+      ],
+      "outputsEn": [
+        "Work performance information",
+        "Change requests",
+        "Project management plan updates",
+        "Project documents updates"
+      ],
+      "requiredArtifacts": [
+        "09-stakeholder/13-4-监督干系人参与.md"
+      ],
+      "entryCriteria": [
+        "已识别Stakeholder Management相关目标、约束或待解决事项"
+      ],
+      "exitCriteria": [
+        "产出物已保存并由责任人确认",
+        "决定、假设、问题和后续行动已记录"
+      ],
+      "gateImpact": "",
+      "tailoring": {
+        "lite": {
+          "minimum": "保留结论、责任人和关键证据"
+        },
+        "standard": {
+          "minimum": "完成过程最小产出物并更新相关台账"
+        },
+        "strict": {
+          "minimum": "保留完整输入输出、审批链和影响分析"
+        }
+      }
+    }
+  ]
+}
