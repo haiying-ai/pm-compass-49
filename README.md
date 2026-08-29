@@ -53,7 +53,7 @@ Copy-Item -Recurse -Force -Path (Join-Path (Resolve-Path .) '*') -Destination (J
 ### 方式 B：从 GitHub 克隆后安装
 
 ```powershell
-git clone https://github.com/<your-account>/pm-compass-49.git
+git clone https://github.com/haiying-ai/pm-compass-49.git
 Set-Location pm-compass-49
 $skillRoot = if ($env:CODEX_HOME) { Join-Path $env:CODEX_HOME 'skills' } else { Join-Path $HOME '.codex\skills' }
 New-Item -ItemType Directory -Force -Path $skillRoot | Out-Null
