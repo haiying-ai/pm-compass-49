@@ -2,6 +2,8 @@
 
 > 把软考常用的 5 大过程组、10 大知识领域、49 个管理过程，变成可安装、可执行、可审计的 AI 项目管理 Skill。
 
+[![CI](https://github.com/haiying-ai/pm-compass-49/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/haiying-ai/pm-compass-49/actions/workflows/ci.yml)
+
 [English README](README.en.md) · [49 个过程测试案例](tests/process-test-cases.zh-CN.md) · [年夜饭示例](examples/new-year-dinner/README.md)
 
 ## 为什么值得使用
